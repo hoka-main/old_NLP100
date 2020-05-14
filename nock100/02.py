@@ -1,8 +1,8 @@
-pato = 'パトカー'
+police = 'パトカー'
 taxi = 'タクシー'
-patato = ''
+pata = ''
 
-for (a, b) in zip(pato, taxi):
-    patato += a + b
-print(patato)
+for (a, b) in zip(police, taxi):
+    pata += a + b
+print(pata)
 
