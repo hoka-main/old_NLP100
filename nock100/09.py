@@ -14,27 +14,26 @@ test_text = "I couldn’t believe that I could actually understand what " \
 
 print(test_text)
 
-list_box = []
-test_text = test_text.replace('.', '')
-test_text = test_text.replace(',', '')
+# test_text = test_text.replace('.', '')
+# test_text = test_text.replace(',', '')
 
 to_split = test_text.split()
-box = ''
-list_box = []
+# box = ''
+# list_box = []
 result_listbox = []
-count = 0
+# count = 0
 print(to_split)
-for count in range(0, len(to_split)):
-
-    box = to_split[count]
+for box in to_split:
     if len(box) > 4:
-        box0 = box[0]
-        box_1 = box[-1]
-        box = box[1:-1]
-        box = random.sample(box, len(box))
-        box1_1 = ''.join(box)
-        test_list = box0, box1_1, box_1
-        result_listbox.append(''.join(test_list))
+        # box0 = box[0]
+        # box_1 = box[-1]
+        box_center = box[1:-1]
+        random_box = random.sample(box_center, len(box_center))
+        # box1_1 = ''.join(random_box)
+        # test_list = box0, box1_1, box_1
+        # joined_Cha = ''.join(test_list)
+        joined_Cha = box[0] + ''.join(random_box) + box[-1]
+        result_listbox.append(joined_Cha)
     else:
         result_listbox.append(box)
 

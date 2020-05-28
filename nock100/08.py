@@ -6,20 +6,29 @@
 
 
 def cipher(etc):
-    etc_list = []
+    # etc_list = []
     result = ''
-    for index in range(0, len(etc)):
-        if etc[index].islower():
-            etc_list.insert(index, chr(219-ord(etc[index])))
+    # for index in range(0, len(etc)):
+    for Cha in etc:
+
+        if Cha.islower():
+            # etc_list.insert(index, chr(219-ord(etc[index])))
+            code = 219-ord(Cha)
+            code_cha = chr(code)
+            result += code_cha
+
         else:
-            etc_list.insert(index, etc[index])
-    for index2 in range(0, len(etc)):
-        result += etc_list[index2]
+            # etc_list.insert(index, etc[index])
+            result += Cha
+
+    # for index2 in range(0, len(etc)):
+        # result += etc_list[index]
     return result
+
 
 sample = 'Hello World'
 test = cipher(sample)
-print(test)
+print('暗号文　＝', test)
 
 test = cipher(test)
-print(test)
+print('複合文　＝', test)
