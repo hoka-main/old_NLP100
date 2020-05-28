@@ -6,6 +6,9 @@ sample = 'I am an NLPer'
 print(n_gram(sample,1))
 print(n_gram(sample,2))
 print(n_gram(sample,3))
+print(n_gram(sample,4))
+print(n_gram(sample,5))
+
 
 word = sample.split(' ')
 

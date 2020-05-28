@@ -1,10 +1,10 @@
 str = 'Hi He Lied Because Boron Could Not Oxidize Fluorine. \
     New Nations Might Also Sign Peace Security Clause. Arthur King Can.'
-str = str.replace('.', '')
+# str = str.replace('.', '')
 to_split = str.split()
 l1 = [1, 5, 6, 7, 8, 9, 15, 16, 19]
 count = 0
-dd = {}
+# dd = {}
 dict = {}
 for word in to_split:
     count += 1
@@ -12,10 +12,10 @@ for word in to_split:
         word = word[:2]
     else:
         word = word[0]
-    dd[count] = word
-    dict.update(dd)
+    dict[count]= word
+#     dd[count] = word
+#     dict.update(dd)
 print(dict)
-
 #
 #
 # print(to_split)
