@@ -1,3 +1,7 @@
+import sys
+
+args = sys.argv
+
 count = 0
 with open('popular-names.txt') as fileread:
     for _ in fileread:
