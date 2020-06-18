@@ -1,6 +1,7 @@
 import sys
 
 args = sys.argv
+print(args)
 
 with open(args[1]) as import_date,  \
         open('col1.txt', mode='w') as col1_file, \

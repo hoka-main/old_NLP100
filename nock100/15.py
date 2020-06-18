@@ -3,13 +3,12 @@ import sys
 # 今回は使わない
 
 args = sys.argv
-
 print(args)
 print('第1引数:' + args[1])
 print('第2引数:' + args[2])
 intN = int(args[1])
-
 list_box = []
+
 with open(args[2]) as names:
     for re_line in names:
         list_box.insert(0, re_line)
