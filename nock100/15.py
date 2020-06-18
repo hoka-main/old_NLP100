@@ -1,16 +1,26 @@
 import sys
-import linecache
+# import linecache
+# 今回は使わない
 
 args = sys.argv
 
 print(args)
-# if args is int:
 print('第1引数:' + args[1])
-intN = args[1]
-with open('popular_names.txt') as names:
-    target_line = linecache.getline(names, int(intN))
-    print(target_line)
-    linecache.clearcache()
-# else:
-print('第1引数:' + args[1])
-print('int型の自然数 N を引数として入力してください。')
+print('第2引数:' + args[2])
+intN = int(args[1])
+
+list_box = []
+with open(args[2]) as names:
+    for re_line in names:
+        list_box.insert(0, re_line)
+    for line, N in zip(list_box, range(intN)):
+        if N < 0:
+            break
+        else:
+            print(line)
+            N -= 1
+
+    # target_line = linecache.getline(names, int(intN))
+    # print(target_line)
+    # linecache.clearcache()
+    # なぜか動かないし使わない。

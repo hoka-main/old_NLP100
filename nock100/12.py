@@ -2,7 +2,7 @@ import sys
 
 args = sys.argv
 
-with open('popular-names.txt') as import_date,  \
+with open(args[1]) as import_date,  \
         open('col1.txt', mode='w') as col1_file, \
         open('col2.txt', mode='w') as col2_file:
 
