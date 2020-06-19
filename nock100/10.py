@@ -1,13 +1,10 @@
 import sys
+from package import func
 
 args = sys.argv
 print(args)
-count = 0
-
 with open(args[1]) as file_read:
+    Line_count = func.count(file_read)
 
-    for _ in file_read:
-        count += 1
-
-print(count)
+print(Line_count)
 # 行数をカウントせよ．確認にはwcコマンドを用いよ．

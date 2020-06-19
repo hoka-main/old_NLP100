@@ -1,15 +1,19 @@
 import sys
-
+from package import func
 args = sys.argv
+args.insert(1, '5')
+args.insert(1, 'cols.txt')
 
 print(args)
-if args is int:
-    print('第1引数:' + args[1])
-    intN = args[1]
-    with open('popular_names.txt') as names:
-        for line in names:
-            cols = line.split('\t')
+intN = int(args[2])
+with open(args[1]) as names:
+    line_count = func.count(names)
+    division = line_count // intN
 
-else:
-    print('第1引数:' + args[1])
-    print('int型の自然数 N を引数として入力してください。')
+    for line, N in zip(names, range(division)):
+        if N < 0:
+            break
+        else:
+            print(line)
+            N -= 1
+
