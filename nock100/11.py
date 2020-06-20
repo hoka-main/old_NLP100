@@ -6,6 +6,5 @@ args = sys.argv
 print(args)
 
 with open(args[1]) as f:
-
     for date in f:
         print(date.replace("\t", " "))
