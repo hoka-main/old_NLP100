@@ -14,3 +14,9 @@ def print_line(zip_type):
             N -= 1
 
 
+def to_split_row(file, split, indent):
+    to_split_list = []
+    for line in file:
+        list_box = line.split(split)
+        to_split_list.append(list_box[indent])
+    return to_split_list

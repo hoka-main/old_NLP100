@@ -7,5 +7,5 @@ intN = int(args[2])
 with open(args[1]) as count_names, \
         open(args[1]) as names:
     line_count = func.count(count_names)
-    division = line_count // intN
-    func.print_line(zip(names, range(division)))
+    quotient = line_count // intN
+    func.print_line(zip(names, range(quotient)))
