@@ -20,3 +20,17 @@ def to_split_row(file, split, indent):
         list_box = line.split(split)
         to_split_list.append(list_box[indent])
     return to_split_list
+
+
+def make_line_list(file, split):
+    result = []
+    for line in file:
+        r_strip_line = line.rstrip('\n')
+        list_in_list = r_strip_line.split(split)
+        num_box3 = list_in_list.pop()
+        num_box2 = list_in_list.pop()
+        list_in_list.append(int(num_box2))
+        list_in_list.append(int(num_box3))
+        result.append(list_in_list)
+    return result
+
