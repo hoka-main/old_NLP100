@@ -1,27 +1,15 @@
 import sys
 import json
-import gzip
+import tarfile
 from collections import OrderedDict
 import pprint
 
-
 args = sys.argv
-args.append('jawiki-country.json.gz')
 
 
-def read_wiki(file_name, title):
-
-    with gzip.open(file_name, 'r', encoding='utf-8') as data_file:
-        for line in data_file:
-            data_json = json.loads(line)
-            if data_json['title'] == title:
-                return data_json['text']
-
-
-def main():
-    file_name = args[1]
-    print(read_wiki(file_name, 'イギリス', ))
-
-
-if __name__ == '__main__':
-    main()
+with tarfile.open('jawiki-country.json.gz') as tar:
+    for i in tar.getmembers():
+        if i.name[0] == '/' or i.name[0:2] == '..':
+            print('外のディレクトリに展開されるかも。')
+            exit()
+    tar.extractall()
