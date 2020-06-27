@@ -15,3 +15,5 @@ with open(args[1]) as file_read:
 
 print(Line_count)
 # 行数をカウントせよ．確認にはwcコマンドを用いよ．
+# コマンド
+#  wc /mnt/c/users/81804/PycharmProjects/nock100/10.py
