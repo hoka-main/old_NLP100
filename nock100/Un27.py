@@ -30,7 +30,6 @@ def remove_markup_link(text_date):
 def main():
     pattern = r'^\{\{基礎情報.*?$(.*?)^\}\}'
     template = re.findall(pattern, read_wiki(args[1], 'イギリス'), re.MULTILINE + re.DOTALL)
-    print(template, '\n')
 
     pattern = r'^\|(.+?)\s*=\s*(.+?)(?:(?=\n\|)|(?=\n$))'
     result = dict(re.findall(pattern, template[0], re.MULTILINE + re.DOTALL))
