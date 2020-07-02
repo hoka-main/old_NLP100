@@ -24,7 +24,6 @@ def main():
     for line in result:
         print(line)
 
-    # pattern = r'^(\={2,})\s*(.+?)\s*(\={2,}).*$'
     # result = '\n'.join(i[1] + ':' + str(len(i[0]) - 1) for i in re.findall(pattern, text_uk, re.MULTILINE))
     # print(result)
 
