@@ -1,12 +1,5 @@
-import sys
-import json
 import gzip
-from collections import OrderedDict
-import pprint
-
-
-args = sys.argv
-args.append('jawiki-country.json.gz')
+import json
 
 
 def read_wiki(file_name, title):
@@ -18,10 +11,7 @@ def read_wiki(file_name, title):
                 return data_json['text']
 
 
-def main():
+def main_wiki():
     file_name = args[1]
-    print(read_wiki(file_name, 'イギリス'))
+    return read_wiki(file_name, 'イギリス')
 
-
-if __name__ == '__main__':
-    main()
