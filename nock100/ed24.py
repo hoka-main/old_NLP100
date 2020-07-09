@@ -11,6 +11,7 @@ args.append('jawiki-country.json.gz')
 def main():
     pattern = r'\[\[ファイル:(.+?)\|'
     result = '\n'.join(re.findall(pattern, func_wiki.read_wiki(args[1], 'イギリス')))
+
     print(result)
 
 
