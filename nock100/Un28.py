@@ -16,6 +16,19 @@ def remove_markup_link(text_date):
     pattern = r'\[\[(?:[^|]*?\|)??([^|]*?)\]\]'
     text_date = re.sub(pattern, r'\1', text_date)
 
+    # テンプレート
+    # 他元首等氏名2: {{仮リンク|リンゼイ・ホイル|en|Lindsay Hoyle}}
+    pattern = r'\{\{(?:lang|仮リンク)??(?:[^|]*?\|)*?([^|]*?)\}\}'
+    text_date = re.sub(pattern, r'\1', text_date)
+
+    # マークアップ削除
+    pattern = r'\[\[(?:.*?\|)([^|]*?)\]\]'
+    text_date = re.sub(pattern, r'\1', text_date)
+
+    # [.*?]削除
+    pattern = r'\[.*?\]'
+    text_date = re.sub(pattern, '', text_date)
+
     # 外部リンク
     pattern = r'https?://[!?\-\.\w=&%\[\]/]+'
     text_date = re.sub(pattern, '', text_date)
@@ -24,10 +37,6 @@ def remove_markup_link(text_date):
     pattern = r'<.+?>'
     text_date = re.sub(pattern, '', text_date)
 
-    # テンプレート
-    # 他元首等氏名2: {{仮リンク|リンゼイ・ホイル|en|Lindsay Hoyle}}
-    pattern = r'\{\{(?:lang|仮リンク)??(?:[^|]*?\|)*?([^|]*?)\}\}'
-    text_date = re.sub(pattern, r'\1', text_date)
 
     return text_date
 
