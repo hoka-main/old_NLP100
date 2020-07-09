@@ -12,7 +12,7 @@ ans = 0.0
 
 # ans**2 - x(近似値と仮定したもの)がepsilonよりも大きく　かつ　xよりも小さくなるまで
 while abs(ans**2 - x) >= epsilon and ans <= x:
-# ansにepsilonの二乗を+する
+    # ansにepsilonの二乗を+する
     ans += step
 # numGuessesに+1する
     numGuesses += 1
@@ -20,9 +20,9 @@ while abs(ans**2 - x) >= epsilon and ans <= x:
 print('numGuesses =', numGuesses)
 # ans**2 - x(近似値と仮定したもの) が epsilon よりも大きい場合
 if abs(ans ** 2 - x) >= epsilon:
-# x は平方根をオーバーしているよと伝える
+    # x は平方根をオーバーしているよと伝える
     print('Failed on square root of', x)
 # それ以外の場合
 else:
-# x は平方根よりも小さいよと伝える
+    # x は平方根よりも小さいよと伝える
     print(ans, 'is close to square root of', x)

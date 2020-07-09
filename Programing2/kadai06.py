@@ -1,13 +1,13 @@
 import time
 
 
-
 def factI(n):
     result = 1
     while n > 1:
         result = result * n
         n -= 1
     return result
+
 
 def factR(n):
     if n == 1:
