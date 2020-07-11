@@ -1,6 +1,4 @@
 import sys
-import json
-import gzip
 import re
 from package import func_wiki
 
@@ -36,7 +34,6 @@ def remove_markup_link(text_date):
     # HTMLタグ
     pattern = r'<.+?>'
     text_date = re.sub(pattern, '', text_date)
-
 
     return text_date
 

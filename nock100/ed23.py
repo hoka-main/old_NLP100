@@ -1,6 +1,4 @@
 import sys
-import gzip
-import json
 import re
 from package import func_wiki
 
