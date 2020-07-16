@@ -38,6 +38,13 @@ def remove_markup_link(text_date):
     return text_date
 
 
+def request_url(text):
+    flag = text['国旗画像']
+    url = 'https://www.mediawiki.org/w/api.php' \
+          'action=query' \
+          ''
+
+
 def main():
     pattern = r'^\{\{基礎情報.*?$(.*?)^\}\}'
     template = re.findall(pattern, func_wiki.read_wiki(args[1], 'イギリス'), re.MULTILINE + re.DOTALL)
