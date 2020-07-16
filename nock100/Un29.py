@@ -1,6 +1,9 @@
 import sys
 import re
 from package import func_wiki
+import json
+import urllib.parse, urllib.request
+
 
 args = sys.argv
 args.append('jawiki-country.json.gz')
@@ -38,11 +41,42 @@ def remove_markup_link(text_date):
     return text_date
 
 
-def request_url(text):
-    flag = text['国旗画像']
-    url = 'https://www.mediawiki.org/w/api.php' \
-          'action=query' \
-          ''
+def request_url(result):
+
+    flag = result['国旗画像']
+    url = 'https://www.mediawiki.org/w/api.php?' \
+          + 'action=query' \ # mediawikiを使用する
+          + '&titles=File:' + urllib.parse.quote(flag) \
+          + '&format=json' \
+          + '&prop=imageinfo' \
+          + '&iiprop=url'
+
+    request = urllib.request.Request(url,
+                                     headers={'User-Agent': 'nock100(@hoka)'})
+    connection = urllib.request.urlopen(request)
+    date = json.loads(connection.read().decode())
+    # print(date)
+    # {'continue':{'iistart': '2019-09-10T16:52:58Z', 'continue': '||'},
+    # 'query':{'pages':
+    #           {'-1':
+    #               {'ns': 6,
+    #                'title': 'File:Flag of the United Kingdom.svg',
+    #                'missing': '',
+    #                'known': '',
+    #                'imagerepository': 'shared',
+    #                'imageinfo': [
+    #                 {'url': 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg',
+    #                  'descriptionurl': 'https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom.svg',
+    #                  'descriptionshorturl': 'https://commons.wikimedia.org/w/index.php?curid=347935'
+    #                 }
+    #                             ]
+    #               }
+    #           }
+    #         }
+    # }
+    url = date['query']['pages'].popitem()[1]['imageinfo'][0]['url']
+
+    return url
 
 
 def main():
@@ -53,8 +87,10 @@ def main():
     result = dict(re.findall(pattern, template[0], re.MULTILINE + re.DOTALL))
 
     result_exe = {field: remove_markup_link(items) for field, items in result.items()}
-    for field, items in result_exe.items():
-        print(field + ' ' + items)
+
+    # ここから
+    url = request_url(result_exe)
+    print(url)
 
 
 if __name__ == '__main__':
