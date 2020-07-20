@@ -45,7 +45,7 @@ def request_url(result):
 
     flag = result['国旗画像']
     url = 'https://www.mediawiki.org/w/api.php?' \
-          + 'action=query' \ # mediawikiを使用する
+          + 'action=query' \
           + '&titles=File:' + urllib.parse.quote(flag) \
           + '&format=json' \
           + '&prop=imageinfo' \
@@ -55,6 +55,7 @@ def request_url(result):
                                      headers={'User-Agent': 'nock100(@hoka)'})
     connection = urllib.request.urlopen(request)
     date = json.loads(connection.read().decode())
+
     # print(date)
     # {'continue':{'iistart': '2019-09-10T16:52:58Z', 'continue': '||'},
     # 'query':{'pages':
@@ -75,7 +76,6 @@ def request_url(result):
     #         }
     # }
     url = date['query']['pages'].popitem()[1]['imageinfo'][0]['url']
-
     return url
 
 
