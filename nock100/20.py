@@ -1,8 +1,8 @@
 import sys
 import json
 import gzip
-from package import func_wiki
-from collections import OrderedDict
+# from package import func_wiki
+# from collections import OrderedDict
 
 
 args = sys.argv
