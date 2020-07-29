@@ -25,7 +25,9 @@ def main():
     text = args[1]
     phrase_list = do(text)
     phrase_list = [parse_mecab(phrase) for phrase in phrase_list]
-    print(phrase_list)
+    for line in phrase_list:
+        for line2 in line:
+            print(line2)
 
 
 if __name__ == '__main__':
