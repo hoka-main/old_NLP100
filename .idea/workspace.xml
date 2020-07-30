@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ee3a238-9e2f-4c3d-a407-5baff7047093" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/PycharmProjects.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PycharmProjects.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Programing2/from08.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/Un30.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un30.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/Un33.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un33.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programing2/kadai08.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programing2/kadai08.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programing2/to_text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Programing2/to_text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Programing2/to_text.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +50,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -61,6 +62,11 @@
         <option name="myModuleName" value="PycharmProjects" />
       </console-settings>
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ohisa\PycharmProjects\Programing2" />
+    </key>
   </component>
   <component name="RunManager" selected="Python.Un30">
     <configuration name="Un30" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -186,10 +192,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1259" y="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1595476222178">
+    <state x="1259" y="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596084941830">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="1259" y="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1858.1080@0.0.1858.1080" timestamp="1595476222178" />
+    <state x="1259" y="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1858.1080@0.0.1858.1080" timestamp="1596084941830" />
     <state x="1181" y="289" key="FileChooserDialogImpl" timestamp="1595497891916">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
