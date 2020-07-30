@@ -1,14 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="1ee3a238-9e2f-4c3d-a407-5baff7047093" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Udemy/dict_copy.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Udemy/dict_use.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/Un30.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un30.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/Un32.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un32.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/Un33.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un33.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,10 +46,120 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Udemy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="PycharmProjects" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="PycharmProjects" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ohisa\PycharmProjects\Programing2" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Un30">
+    <configuration name="Un30" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nock100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nock100/Un30.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Un31" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nock100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nock100/Un31.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Un32" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nock100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nock100/Un32.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sumple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nock100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nock100/sumple.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Un30" />
+        <item itemvalue="Python.Un32" />
+        <item itemvalue="Python.Un31" />
+        <item itemvalue="Python.sumple" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -41,10 +178,75 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="1220" y="278" key="FileChooserDialogImpl" timestamp="1588221477647">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="1259" y="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596084941830">
+      <screen x="0" y="0" width="1858" height="1080" />
     </state>
+    <state x="1259" y="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1858.1080@0.0.1858.1080" timestamp="1596084941830" />
+    <state x="1181" y="289" key="FileChooserDialogImpl" timestamp="1595497891916">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="1181" y="289" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1595497891916" />
     <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588221477647" />
+    <state width="905" height="263" key="GridCell.Tab.0.bottom" timestamp="1595498671317">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="905" height="263" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1595498671317" />
+    <state width="905" height="263" key="GridCell.Tab.0.center" timestamp="1595498671317">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="905" height="263" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1595498671317" />
+    <state width="905" height="263" key="GridCell.Tab.0.left" timestamp="1595498671317">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="905" height="263" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1595498671317" />
+    <state width="905" height="263" key="GridCell.Tab.0.right" timestamp="1595498671317">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="905" height="263" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1595498671317" />
+    <state width="905" height="363" key="GridCell.Tab.1.bottom" timestamp="1595483047130">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="905" height="363" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1595483047130" />
+    <state width="905" height="363" key="GridCell.Tab.1.center" timestamp="1595483047129">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="905" height="363" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1595483047129" />
+    <state width="905" height="363" key="GridCell.Tab.1.left" timestamp="1595483047129">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="905" height="363" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1595483047129" />
+    <state width="905" height="363" key="GridCell.Tab.1.right" timestamp="1595483047130">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="905" height="363" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1595483047130" />
+    <state x="1222" y="242" key="RollbackChangesDialog" timestamp="1595487196169">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="1222" y="242" key="RollbackChangesDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1595487196169" />
+    <state x="875" y="100" key="SettingsEditor" timestamp="1595498076833">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="875" y="100" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1595498076833" />
+    <state width="471" height="543" key="XDebugger.FullValuePopup" timestamp="1595481728965">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="471" height="543" key="XDebugger.FullValuePopup/0.0.1858.1080@0.0.1858.1080" timestamp="1595481728965" />
+    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1595486013433">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1595486013433" />
   </component>
 </project>
