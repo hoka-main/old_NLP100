@@ -6,8 +6,7 @@ args.append('neko.txt.mecab')
 def parse_mecab(block):
     # フレーズを形態素解析した結果を入れるリスト
     res = []
-
-    for line in block.split('\n'):
+        for line in block.split('\n'):
         if line == '':  # フレーズの終わりを意味する
             return res
         (analyzing_source, analyzing_detail) = line.split('\t')
