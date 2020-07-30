@@ -10,7 +10,7 @@ def parse_mecab(block):
     for line in block.split('\n'):
         if line == '':  # フレーズの終わりを意味する
             return res
-        (analyzing_source, analyzing_detail) = line.split('\t')
+        analyzing_source, analyzing_detail = line.split('\t')
         analyzing_detail = analyzing_detail.split(',')
         # マッピング型と指定されているのでdict型に格納
         line_dict = {'surface': analyzing_source,   # 表層形

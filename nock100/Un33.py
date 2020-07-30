@@ -18,6 +18,7 @@ def parse_mecab(block):
                      'pos': analyzing_detail[0],    # 品詞
                      'pos1': analyzing_detail[1]}   # 品詞細分類1
         res.append(line_dict)
+        search(list)
 
 
 def do(mecab_file):
