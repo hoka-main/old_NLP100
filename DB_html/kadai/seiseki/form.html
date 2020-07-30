@@ -1,0 +1,28 @@
+<html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>クラスメイト</title>
+</head>
+<body>
+<h1>新規登録画面</h1>
+<form action="regist.php" method="POST">
+<fieldset>
+	<p>氏名：<input type="text" name="shimei"></p>
+	<p>カナ：<input type="text" name="kana"></p>
+	<p>種類：
+		<select name='shiken'>
+			<option value='shiken'>中間試験</option>
+			<option value='shiken'>期末試験</option>
+		</select>
+	</p>
+	<p>国語：<input type="text" name="kokugo"></p>
+	<p>算数：<input type="text" name="sansuu"></p>
+	<p>理科：<input type="text" name="rika"></p>
+	<p>社会：<input type="text" name="shakai"></p>
+	<p>写真：<input type="file" name="upfile" accept=".jpg" ></p>
+	<input type="submit" value="登録する">
+</fieldset>
+</form>
+
+<p><a href="index.php">一覧へ戻る</a></p>
+</body>
+</html>
