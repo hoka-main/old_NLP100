@@ -6,7 +6,7 @@ args.append('neko.txt.mecab')
 def parse_mecab(block):
     # フレーズを形態素解析した結果を入れるリスト
     res = []
-        for line in block.split('\n'):
+    for line in block.split('\n'):
         if line == '':  # フレーズの終わりを意味する
             return res
         (analyzing_source, analyzing_detail) = line.split('\t')
@@ -17,7 +17,6 @@ def parse_mecab(block):
                      'pos': analyzing_detail[0],    # 品詞
                      'pos1': analyzing_detail[1]}   # 品詞細分類1
         res.append(line_dict)
-        search(list)
 
 
 def do(mecab_file):
@@ -30,18 +29,18 @@ def do(mecab_file):
 
 
 def search(full_list):
-    list_box0 = []
-    for list_in_list in full_list:
-        if list_in_list[2] == '名詞':
-
-        if list_in_list[3] == '連体化':
-
+    for line, i in full_list:
+        for word, j in line:
+            print(type(word))
+    # for list_in_list in full_list:
+        # if list_in_list[3] == '連体化':"
 
 
 def main():
     text = args[1]
     phrase_list = do(text)
     phrase_list = [parse_mecab(phrase) for phrase in phrase_list]
+    # print(type(phrase_list))
     print(search(phrase_list))
 
 

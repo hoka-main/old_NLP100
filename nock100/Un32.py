@@ -29,5 +29,6 @@ def main():
         for line2 in line:
             print(line2)
 
+
 if __name__ == '__main__':
     main()

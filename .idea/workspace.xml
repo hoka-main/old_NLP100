@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ee3a238-9e2f-4c3d-a407-5baff7047093" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Programing2/from08.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programing2/kadai08.py" beforeDir="false" afterPath="$PROJECT_DIR$/Programing2/kadai08.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programing2/to_text" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programing2/to_text.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Programing2/to_text.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/Un30.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un30.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/Un32.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un32.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/Un33.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un33.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
