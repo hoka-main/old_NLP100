@@ -1,8 +1,9 @@
 import sys
+from package import func
 args = sys.argv
 args.append('neko.txt.mecab')
 
-
+'''
 def parse_mecab(block):
     res = []
     for line in block.split('\n'):
@@ -11,7 +12,7 @@ def parse_mecab(block):
         (analyzing_source, analyzing_detail) = line.split('\t')
         analyzing_detail = analyzing_detail.split(',')
         if analyzing_detail[0] == '動詞':
-            res.append(analyzing_detail[6])
+            res.append(analyzing_source)
 
 
 def do(mecab_file):
@@ -19,15 +20,16 @@ def do(mecab_file):
         phrase_list = phrase.read().split('EOS\n')
     phrase_list = list(filter(lambda x: x != '', phrase_list))
     return phrase_list
+'''
 
 
 def main():
-    text = args[1]
-    phrase_list = do(text)
-    phrase_list = [parse_mecab(phrase) for phrase in phrase_list]
+    phrase_list = [func.parse_mecab(phrase)
+                   for phrase in func.make_phrase_list(args[1])]
     for line in phrase_list:
-        for line2 in line:
-            print(line2)
+        for dict_line in line:
+            if dict_line['pos'] == '動詞':
+                print(dict_line['surface'])
 
 
 if __name__ == '__main__':

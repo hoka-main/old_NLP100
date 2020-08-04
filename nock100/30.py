@@ -4,14 +4,12 @@ args.append('neko.txt.mecab')
 
 
 def parse_mecab(block):
-    # フレーズを形態素解析した結果を入れるリスト
-    res = []
-
+    res = []  # フレーズを形態素解析した結果を入れるリスト
     for line in block.split('\n'):
         if line == '':  # フレーズの終わりを意味する
             return res
-        analyzing_source, analyzing_detail = line.split('\t')
-        analyzing_detail = analyzing_detail.split(',')
+        analyzing_source, analyzing_detail = line.split('\t')   # 表層系とそれ以外でリスト化
+        analyzing_detail = analyzing_detail.split(',')  # 品詞以下を細かくリスト化
         # マッピング型と指定されているのでdict型に格納
         line_dict = {'surface': analyzing_source,   # 表層形
                      'base': analyzing_detail[6],   # 基本形
@@ -20,19 +18,15 @@ def parse_mecab(block):
         res.append(line_dict)
 
 
-def do(mecab_file):
+def make_phrase_list(mecab_file):  # MeCabファイルを一行ごとにリスト化させる
     with open(mecab_file, 'rt', encoding='utf-8') as phrase:
-        # フレーズで切り取って扱いやすくする
-        phrase_list = phrase.read().split('EOS\n')
-    # 無駄な行を省いてスマートにしちゃう
-    phrase_list = list(filter(lambda x: x != '', phrase_list))
+        phrase_list = phrase.read().split('EOS\n')  # フレーズで区切る
+    phrase_list = list(filter(lambda x: x != '', phrase_list))  # 無駄な行を省いてスマートにしちゃう
     return phrase_list
 
 
 def main():
-    text = args[1]
-    phrase_list = do(text)
-    for phrase in phrase_list:
+    for phrase in make_phrase_list(args[1]):
         for word in parse_mecab(phrase):
             print(word)
         # print('\n') 一文ごとに改行
