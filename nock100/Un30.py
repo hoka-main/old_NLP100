@@ -32,15 +32,17 @@ def do(mecab_file):
 def main():
     text = args[1]
     phrase_list = do(text)
+
     for phrase in phrase_list:
         for word in parse_mecab(phrase):
             print(word)
         # print('\n') 一文ごとに改行
-    """phrase_list = [parse_mecab(phrase) for phrase in phrase_list]
+
+    """
+    phrase_list = [parse_mecab(phrase) for phrase in phrase_list]
     for line in phrase_list:
         for line2 in line:
-            print(line2)
-"""
+            print(line2)"""
 
 
 if __name__ == '__main__':
