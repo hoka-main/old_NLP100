@@ -4,9 +4,7 @@ args.append('neko.txt.mecab')
 
 
 def parse_mecab(block):
-    # フレーズを形態素解析した結果を入れるリスト
-    res = []
-
+    res = []  # フレーズを形態素解析した結果を入れるリスト
     for line in block.split('\n'):
         if line == '':  # フレーズの終わりを意味する
             return res
@@ -20,19 +18,15 @@ def parse_mecab(block):
         res.append(line_dict)
 
 
-def do(mecab_file):
+def make_phrase_list(mecab_file):  # MeCabファイルを一行ごとにリスト化させる
     with open(mecab_file, 'rt', encoding='utf-8') as phrase:
-        # フレーズで切り取って扱いやすくする
-        phrase_list = phrase.read().split('EOS\n')
-    # 無駄な行を省いてスマートにしちゃう
-    phrase_list = list(filter(lambda x: x != '', phrase_list))
+        phrase_list = phrase.read().split('EOS\n')  # フレーズで区切る
+    phrase_list = list(filter(lambda x: x != '', phrase_list))  # 無駄な行を省いてスマートにしちゃう
     return phrase_list
 
 
 def main():
-    text = args[1]
-    phrase_list = do(text)
-
+    phrase_list = make_phrase_list(args[1])
     for phrase in phrase_list:
         for word in parse_mecab(phrase):
             print(word)
