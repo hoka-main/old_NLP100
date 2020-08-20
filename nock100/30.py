@@ -1,6 +1,4 @@
 import sys
-args = sys.argv
-args.append('neko.txt.mecab')
 
 
 def parse_mecab(block):
@@ -26,6 +24,9 @@ def make_phrase_list(mecab_file):  # MeCabファイルを一行ごとにリス�
 
 
 def main():
+    args = sys.argv
+    args.append('neko.txt.mecab')
+
     phrase_list = make_phrase_list(args[1])
     for phrase in phrase_list:
         for word in parse_mecab(phrase):

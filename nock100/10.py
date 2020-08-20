@@ -1,19 +1,21 @@
 import sys
 
 
-def count(file_read):
+def count_line(file):
     box = 0
-    for _ in file_read:
+    for _ in file:
         box += 1
     return box
 
 
 args = sys.argv
-print(args)
-with open(args[1]) as file_read:
-    Line_count = count(file_read)
-
-print(Line_count)
+txt = 'コマンドラインでテキストファイルを指定してください'
+args.append(txt)
+if args[1] == txt:
+    print(args[1])
+else:
+    with open(args[1]) as file_read:
+        print(count_line(file_read))
 # 行数をカウントせよ．確認にはwcコマンドを用いよ．
 # コマンド
 #  wc /mnt/c/users/81804/PycharmProjects/nock100/10.py

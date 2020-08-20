@@ -1,10 +1,11 @@
 import sys
 from package import func
-args = sys.argv
-args.append('neko.txt.mecab')
 
 
 def main():
+    args = sys.argv
+    args.append('neko.txt.mecab')
+
     phrase_list = [func.parse_mecab(phrase)
                    for phrase in func.make_phrase_list(args[1])]
     for line in phrase_list:
