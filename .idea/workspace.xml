@@ -21,9 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="1ee3a238-9e2f-4c3d-a407-5baff7047093" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/Un30.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un30.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nock100/Un32.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un32.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/Un33.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un33.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/Un34.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un34.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/Un35.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un35.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/edit33.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/33.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/package/func.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/package/func.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/result/hoka_nock33.txt" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/result/hoka_nock33.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,6 +164,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -199,39 +203,38 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1181" y="289" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1595497891916" />
-    <state x="1220" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1588221477647" />
-    <state width="905" height="263" key="GridCell.Tab.0.bottom" timestamp="1595498671317">
+    <state width="905" height="360" key="GridCell.Tab.0.bottom" timestamp="1599558271125">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="263" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1595498671317" />
-    <state width="905" height="263" key="GridCell.Tab.0.center" timestamp="1595498671317">
+    <state width="905" height="360" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1599558271125" />
+    <state width="905" height="360" key="GridCell.Tab.0.center" timestamp="1599558271125">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="263" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1595498671317" />
-    <state width="905" height="263" key="GridCell.Tab.0.left" timestamp="1595498671317">
+    <state width="905" height="360" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1599558271125" />
+    <state width="905" height="360" key="GridCell.Tab.0.left" timestamp="1599558271125">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="263" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1595498671317" />
-    <state width="905" height="263" key="GridCell.Tab.0.right" timestamp="1595498671317">
+    <state width="905" height="360" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1599558271125" />
+    <state width="905" height="360" key="GridCell.Tab.0.right" timestamp="1599558271125">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="263" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1595498671317" />
-    <state width="905" height="363" key="GridCell.Tab.1.bottom" timestamp="1595483047130">
+    <state width="905" height="360" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1599558271125" />
+    <state width="905" height="360" key="GridCell.Tab.1.bottom" timestamp="1599558271126">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="363" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1595483047130" />
-    <state width="905" height="363" key="GridCell.Tab.1.center" timestamp="1595483047129">
+    <state width="905" height="360" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1599558271126" />
+    <state width="905" height="360" key="GridCell.Tab.1.center" timestamp="1599558271126">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="363" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1595483047129" />
-    <state width="905" height="363" key="GridCell.Tab.1.left" timestamp="1595483047129">
+    <state width="905" height="360" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1599558271126" />
+    <state width="905" height="360" key="GridCell.Tab.1.left" timestamp="1599558271125">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="363" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1595483047129" />
-    <state width="905" height="363" key="GridCell.Tab.1.right" timestamp="1595483047130">
+    <state width="905" height="360" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1599558271125" />
+    <state width="905" height="360" key="GridCell.Tab.1.right" timestamp="1599558271126">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="363" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1595483047130" />
+    <state width="905" height="360" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1599558271126" />
     <state x="1222" y="242" key="RollbackChangesDialog" timestamp="1595487196169">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>

@@ -21,8 +21,8 @@ def noun_noun(full_list):
             if word['pos'] == '名詞':
                 if line[index - 1]['pos'] == '助詞' and line[index - 1]['surface'] == 'の':
                     if line[index - 2]['pos'] == '名詞':
-                        name = name + line[index - 2]['surface']\
-                               + line[index - 1]['surface']\
+                        name = name + line[index - 2]['surface'] \
+                               + line[index - 1]['surface'] \
                                + line[index]['surface'] + '\n'
     return name
 
