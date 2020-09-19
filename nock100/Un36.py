@@ -5,25 +5,51 @@ import Un35
 import nock30
 import numpy
 from matplotlib import pyplot
+from matplotlib.font_manager import FontProperties
+# import japanize_matplotlib  # Pycharm用
+
+
+def remove_items(phrase_list, pos):
+    new_phrase = []
+    for list1 in phrase_list:
+        for phrase in list1:
+            if phrase['pos'] == pos:
+                continue
+            new_phrase.append(phrase)
+            new_phrase_list = [new_phrase]
+    return new_phrase_list
+
+
+def plot(plot_keys, plot_items):
+    pyplot.bar(plot_keys, plot_items)
+    pyplot.show()
+    pyplot.savefig("hogehoge.png")
 
 
 def main():
     args = sys.argv
     args.append('neko.txt.mecab')
-    phrase_list = [nock30.parse_mecab(phrase)
-                   for phrase in nock30.make_phrase_list(args[1])]
+    plt_items = []
+    plt_keys = []
     counter = 9
 
-    # kigou = ["。", "、", "「", "」"]
-    # regex = ""
-    # re.sub(regex, surface)
-    # pattern = re.compile('[「」。、]+')
-    for index, dict_box in enumerate(Un35.word_pop_frequency(phrase_list)):
-        print(dict_box)
-        if index == counter:
+    phrase_list = [nock30.parse_mecab(phrase)
+                   for phrase in nock30.make_phrase_list(args[1])]
+
+    removed_phrase_list = remove_items(phrase_list, '記号')
+
+    for dict_box, items in Un35.word_pop_frequency(removed_phrase_list):
+        plt_keys.append(dict_box)
+        plt_items.append(items)
+        print(dict_box, items)
+        if counter == 1:
             break
-    pyplot.plot(dict_box)
-    pyplot.show()
+        counter -= 1
+
+    plot(plt_keys, plt_items)
+
+
+
 
 
 if __name__ == '__main__':

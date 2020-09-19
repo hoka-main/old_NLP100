@@ -21,7 +21,9 @@
   <component name="ChangeListManager">
     <list default="true" id="1ee3a238-9e2f-4c3d-a407-5baff7047093" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/Un35.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un35.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nock100/Un36.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un36.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
       <recent name="C:\Users\ohisa\PycharmProjects\Programing2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Un30">
+  <component name="RunManager" selected="Python.Un36">
     <configuration name="Un30" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -79,27 +81,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nock100/Un30.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Un31" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nock100" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nock100/Un31.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +110,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="sumple" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Un35" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -141,7 +122,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nock100/sumple.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nock100/Un35.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Un36" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nock100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nock100/Un36.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nock100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nock100/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,10 +175,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Un36" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.Un35" />
         <item itemvalue="Python.Un30" />
         <item itemvalue="Python.Un32" />
-        <item itemvalue="Python.Un31" />
-        <item itemvalue="Python.sumple" />
       </list>
     </recent_temporary>
   </component>
@@ -198,38 +222,38 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1181" y="289" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1595497891916" />
-    <state width="905" height="360" key="GridCell.Tab.0.bottom" timestamp="1599583904094">
+    <state width="905" height="265" key="GridCell.Tab.0.bottom" timestamp="1600515140167">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="360" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1599583904094" />
-    <state width="905" height="360" key="GridCell.Tab.0.center" timestamp="1599583904093">
+    <state width="905" height="265" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1600515140167" />
+    <state width="905" height="265" key="GridCell.Tab.0.center" timestamp="1600515140167">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="360" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1599583904093" />
-    <state width="905" height="360" key="GridCell.Tab.0.left" timestamp="1599583904093">
+    <state width="905" height="265" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1600515140167" />
+    <state width="905" height="265" key="GridCell.Tab.0.left" timestamp="1600515140167">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="360" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1599583904093" />
-    <state width="905" height="360" key="GridCell.Tab.0.right" timestamp="1599583904093">
+    <state width="905" height="265" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1600515140167" />
+    <state width="905" height="265" key="GridCell.Tab.0.right" timestamp="1600515140167">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="360" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1599583904093" />
-    <state width="905" height="360" key="GridCell.Tab.1.bottom" timestamp="1599583904094">
+    <state width="905" height="265" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1600515140167" />
+    <state width="905" height="362" key="GridCell.Tab.1.bottom" timestamp="1600058479145">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="360" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1599583904094" />
-    <state width="905" height="360" key="GridCell.Tab.1.center" timestamp="1599583904094">
+    <state width="905" height="362" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1600058479145" />
+    <state width="905" height="362" key="GridCell.Tab.1.center" timestamp="1600058479144">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="360" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1599583904094" />
-    <state width="905" height="360" key="GridCell.Tab.1.left" timestamp="1599583904094">
+    <state width="905" height="362" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1600058479144" />
+    <state width="905" height="362" key="GridCell.Tab.1.left" timestamp="1600058479144">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="360" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1599583904094" />
-    <state width="905" height="360" key="GridCell.Tab.1.right" timestamp="1599583904094">
+    <state width="905" height="362" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1600058479144" />
+    <state width="905" height="362" key="GridCell.Tab.1.right" timestamp="1600058479144">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="360" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1599583904094" />
+    <state width="905" height="362" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1600058479144" />
     <state x="1222" y="242" key="RollbackChangesDialog" timestamp="1595487196169">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -242,9 +266,9 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="471" height="543" key="XDebugger.FullValuePopup/0.0.1858.1080@0.0.1858.1080" timestamp="1595481728965" />
-    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1595486013433">
+    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1600514359469">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1595486013433" />
+    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1600514359469" />
   </component>
 </project>
