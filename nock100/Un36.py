@@ -1,11 +1,8 @@
 import sys
-import re
-from collections import Counter
 import Un35
 import nock30
 import numpy
 from matplotlib import pyplot
-from matplotlib.font_manager import FontProperties
 # import japanize_matplotlib  # Pycharm用
 
 
@@ -42,14 +39,11 @@ def main():
         plt_keys.append(dict_box)
         plt_items.append(items)
         print(dict_box, items)
-        if counter == 1:
+        if counter == 0:
             break
         counter -= 1
 
     plot(plt_keys, plt_items)
-
-
-
 
 
 if __name__ == '__main__':

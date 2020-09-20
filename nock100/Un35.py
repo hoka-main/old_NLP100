@@ -3,11 +3,17 @@ from package import func
 from collections import Counter
 
 
-def word_pop_frequency(phrase_list):
+def phrase_key_list(phrase_list, key):
     phrase = []
     for line in phrase_list:
-        for line2 in line:
-            phrase.append(line2['surface'])
+        for items in line:
+            phrase.append(items[key])
+    return phrase
+
+
+def word_pop_frequency(phrase):
+    if isinstance(phrase[0], list):
+        phrase = phrase_key_list(phrase, 'surface')
     phrase_list = sorted(Counter(phrase).items(), key=lambda x:x[1], reverse=True)
     return phrase_list
 
