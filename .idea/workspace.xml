@@ -21,11 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="1ee3a238-9e2f-4c3d-a407-5baff7047093" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/Un35.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un35.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nock100/Un36.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un36.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nock100/Un37.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un37.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/hogehoge.png" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/hogehoge.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock33.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/nock33.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/hogehoge.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +68,7 @@
       <recent name="C:\Users\ohisa\PycharmProjects\Programing2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.nock33">
+  <component name="RunManager" selected="Python.test">
     <configuration name="Un30" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -177,9 +176,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.nock33" />
         <item itemvalue="Python.Un36" />
-        <item itemvalue="Python.test" />
         <item itemvalue="Python.Un35" />
         <item itemvalue="Python.Un30" />
       </list>
@@ -224,22 +223,22 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1181" y="289" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1595497891916" />
-    <state width="905" height="265" key="GridCell.Tab.0.bottom" timestamp="1600522573083">
+    <state width="905" height="265" key="GridCell.Tab.0.bottom" timestamp="1600620750133">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="265" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1600522573083" />
-    <state width="905" height="265" key="GridCell.Tab.0.center" timestamp="1600522573083">
+    <state width="905" height="265" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1600620750133" />
+    <state width="905" height="265" key="GridCell.Tab.0.center" timestamp="1600620750132">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="265" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1600522573083" />
-    <state width="905" height="265" key="GridCell.Tab.0.left" timestamp="1600522573082">
+    <state width="905" height="265" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1600620750132" />
+    <state width="905" height="265" key="GridCell.Tab.0.left" timestamp="1600620750132">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="265" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1600522573082" />
-    <state width="905" height="265" key="GridCell.Tab.0.right" timestamp="1600522573083">
+    <state width="905" height="265" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1600620750132" />
+    <state width="905" height="265" key="GridCell.Tab.0.right" timestamp="1600620750133">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="265" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1600522573083" />
+    <state width="905" height="265" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1600620750133" />
     <state width="905" height="362" key="GridCell.Tab.1.bottom" timestamp="1600058479145">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -272,5 +271,16 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1600514359469" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/nock100/Un36.py</url>
+          <line>58</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

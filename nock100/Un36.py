@@ -6,21 +6,30 @@ from matplotlib import pyplot
 # import japanize_matplotlib  # Pycharm用
 
 
+def pass_by_value(combo):
+    new_phrase = []
+
+    return new_phrase
+
+
 def remove_items(phrase_list, pos):
     new_phrase = []
+    new_phrase_list = []
     for list1 in phrase_list:
         for phrase in list1:
             if phrase['pos'] == pos:
                 continue
             new_phrase.append(phrase)
-            new_phrase_list = [new_phrase]
+            # pass_by_value(phrase)
+        new_phrase_list.append(list(new_phrase))
+        new_phrase.clear()
     return new_phrase_list
 
 
-def plot(plot_keys, plot_items):
+def plot(plot_keys, plot_items, png):
     pyplot.bar(plot_keys, plot_items)
     pyplot.show()
-    pyplot.savefig("hogehoge.png")
+    pyplot.savefig(png)
 
 
 def main():
@@ -43,7 +52,7 @@ def main():
             break
         counter -= 1
 
-    plot(plt_keys, plt_items)
+    plot(plt_keys, plt_items, "graph36.png")
 
 
 if __name__ == '__main__':
