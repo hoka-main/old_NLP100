@@ -12,6 +12,7 @@ def search(full_list):
             if line[index - 1]['pos1'] == '連体化':
                 name = name + line[index]['surface'] + '\n'
     return name[0:-1]
+    # 連体化の「の」を検出してその前後を抽出する手法、今回は未使用
 
 
 def is_pos(word):
@@ -34,6 +35,8 @@ def noun_noun(full_list):
                                + line[index - 1]['surface'] \
                                + line[index]['surface'] + '\n'
     return name
+    # 名詞を検出し、その-1が助詞の「の」、その-2が名詞だった場合、
+    # その1グループのsurfaceを出力する関数
 
 
 def main():

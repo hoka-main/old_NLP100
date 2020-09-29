@@ -1,5 +1,6 @@
 from package import func
 import sys
+import nock30
 
 
 def noon_find(full_list):
@@ -20,13 +21,16 @@ def noon_find(full_list):
                     counter -= 1
 
     return noon_list
+    # 名詞を検出後、名詞が連続した回数をカウントし、それをもとに連なった名詞群を抽出し、
+    # 連なった名詞群をリストに入れて保存してそれを返す関数。
+    # 名詞が連続しない場合はカウントを戻してスルーさせる
 
 
 def main():
     args = sys.argv
     args.append('neko.txt.mecab')
-    phrase_list = [func.parse_mecab(phrase)
-                   for phrase in func.make_phrase_list(args[1])]
+    phrase_list = [nock30.parse_mecab(phrase)
+                   for phrase in nock30.make_phrase_list(args[1])]
     for items in noon_find(phrase_list):
         print(items)
 

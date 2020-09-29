@@ -3,13 +3,14 @@ import Un35
 import nock30
 import numpy
 from matplotlib import pyplot
-# import japanize_matplotlib  # Pycharm用
+# import japanize_matplotlib
 
 
 def pass_by_value(combo):
     new_phrase = []
 
     return new_phrase
+    # 未使用
 
 
 def remove_items(phrase_list, pos):
@@ -24,12 +25,17 @@ def remove_items(phrase_list, pos):
         new_phrase_list.append(list(new_phrase))
         new_phrase.clear()
     return new_phrase_list
+    # 特定のposを排除する関数。
+    # phrase_listに含まれている形態素解析データの指定したpos種類を任意で排除する。
+    # 手法としてすべての単語をfor文で回し、指定したposが回って来た時にのみcontinueで飛ばしている。
+    # また、list()を使って参照渡しを回避している。
 
 
 def plot(plot_keys, plot_items, png):
     pyplot.bar(plot_keys, plot_items)
     pyplot.show()
     pyplot.savefig(png)
+    # プロットコンフィグ関数。ここで各種調整する。
 
 
 def main():
@@ -51,7 +57,7 @@ def main():
         if counter == 0:
             break
         counter -= 1
-
+    # 35のプログラムを実行し、matplotlibに各アイテムを代入している。
     plot(plt_keys, plt_items, "graph36.png")
 
 

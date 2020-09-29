@@ -1,5 +1,5 @@
 import sys
-from package import func
+import nock30
 
 
 '''
@@ -19,12 +19,14 @@ def main():
     args = sys.argv
     args.append('neko.txt.mecab')
 
-    phrase_list = [func.parse_mecab(phrase)
-                   for phrase in func.make_phrase_list(args[1])]
+    phrase_list = [nock30.parse_mecab(phrase)
+                   for phrase in nock30.make_phrase_list(args[1])]
+    # nock30で使用した形態素のリスト表現
     for line in phrase_list:
         for dict_line in line:
             if dict_line['pos'] == '動詞':
                 print(dict_line['surface'])
+    # phrase‗listに含まれる動詞のsurfaceを表示
 
 
 if __name__ == '__main__':
