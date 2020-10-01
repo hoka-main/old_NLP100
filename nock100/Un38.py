@@ -1,5 +1,4 @@
 import sys
-import Un35
 import nock30
 from collections import defaultdict
 import matplotlib.pyplot as plt
@@ -23,7 +22,7 @@ def main():
     ans = d.values()
     plt.figure(figsize=(8, 8))
     plt.hist(ans, bins=100)
-    plt.savefig('ans38.png')
+    plt.savefig('graph38.png')
 
 
 if __name__ == '__main__':
