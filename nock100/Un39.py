@@ -4,6 +4,15 @@ import nock35
 import matplotlib.pyplot as plt
 
 
+def plot(plot_keys, plot_items, png):
+    fig = plt.figure()
+    plt.scatter(plot_keys, plot_items)
+    plt.xscale('log')
+    plt.yscale('log')
+    plt.show()
+    fig.savefig(png)
+
+
 def main():
     args = sys.argv
     args.append('neko.txt.mecab')
@@ -24,10 +33,7 @@ def main():
         rank.append(index + 1)
         num.append(number)
     print(rank, num)
-    plt.xscale('log')
-    plt.yscale('log')
-    plt.show()
-    plt.savefig('graph39')
+    plot(rank, num, 'graph39.png')
 
 
 if __name__ == '__main__':
