@@ -19,6 +19,8 @@ def file_writer(data, file_name):
                 writing_file.write(line2)
                 writing_file.write('\t')
             writing_file.write('\n')
+    # 受け取ったデータをtabで区切りながらデータを入力する関数。
+    # データ一行ごとに改行し、受け取ったデータをごちゃまぜにならないようにしている。
 
 
 def write_data(remaining_count, file_name_list, target_news_list):
@@ -56,6 +58,10 @@ def sub1():
     print(args)
     news_list_details = split_details_list(args[1])
     print(news_list_details[17])
+    
+    # もともとmainで作成していたコード。
+    # 手動でcsvファイルを読み込もうとしていたので
+    # コード量が多いしまだ途中なので動かない。
 """
 
 
