@@ -32,31 +32,20 @@ def main():
     args.append('newsCorpora.csv')
     args.append('2pageSessions.scv')
     list_box = []
-    with open(args[1]) as csv_file:
+    with open(args[1], newline='') as csv_file:
         reader = csv.reader(csv_file)
-        log = []
         for index, line in enumerate(reader):
-            print('*********************************************')
-            print(line)
-            print('***')
+            line = ', '.join(line)
+            line = line.split('\t')
 
             for row in line:
                 list_box.extend(row.strip().split('\t'))
 
-            print(list_box[4])
+            print(list_box[3])
             list_box.clear()
-            if index == 17:
+            if index == 10:
                 break
-#             elif index == 18:
-#                 break
-
-
-        # read_file = csv_file.read()
-        # read_file.splitlines()
-        # print(read_file[0:10])
-        # to_split = read_file.split('\t')
-        # print(to_split[0:10])
-    # read_csv(args[1])
+                # 数万もデータはいらないのでひとまず10個だけ出力
 
 
 if __name__ == '__main__':
