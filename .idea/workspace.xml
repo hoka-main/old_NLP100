@@ -20,54 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ee3a238-9e2f-4c3d-a407-5baff7047093" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nock100/file_edit_program.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/Change_extension.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Change_extension.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/Un38.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un38.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/Un39.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un39.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/Un40.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un40.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/Un50.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un50.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/edit21.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/edit22.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/edit23.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/edit24.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/edit25.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/edit26.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/edit27.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/file_open100.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/file_open100.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/neko_mecab.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/neko_mecab.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock00.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock01.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock02.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock03.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock04.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock05.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock06.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock07.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock08.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock09.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock10.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock11.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock12.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock13.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock14.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock15.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock16.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock17.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock18.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock19.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock20.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock28.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock29.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock30.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock31.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock32.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock33.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock34.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock35.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock36.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/nock37.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/nock100/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -266,22 +219,22 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1181" y="289" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1595497891916" />
-    <state width="905" height="264" key="GridCell.Tab.0.bottom" timestamp="1601708704795">
+    <state width="905" height="264" key="GridCell.Tab.0.bottom" timestamp="1601710440781">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="264" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1601708704795" />
-    <state width="905" height="264" key="GridCell.Tab.0.center" timestamp="1601708704795">
+    <state width="905" height="264" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1601710440781" />
+    <state width="905" height="264" key="GridCell.Tab.0.center" timestamp="1601710440781">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="264" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1601708704795" />
-    <state width="905" height="264" key="GridCell.Tab.0.left" timestamp="1601708704794">
+    <state width="905" height="264" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1601710440781" />
+    <state width="905" height="264" key="GridCell.Tab.0.left" timestamp="1601710440780">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="264" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1601708704794" />
-    <state width="905" height="264" key="GridCell.Tab.0.right" timestamp="1601708704795">
+    <state width="905" height="264" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1601710440780" />
+    <state width="905" height="264" key="GridCell.Tab.0.right" timestamp="1601710440781">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="264" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1601708704795" />
+    <state width="905" height="264" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1601710440781" />
     <state width="905" height="362" key="GridCell.Tab.1.bottom" timestamp="1601649913105">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
