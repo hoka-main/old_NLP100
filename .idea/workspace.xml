@@ -20,8 +20,54 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ee3a238-9e2f-4c3d-a407-5baff7047093" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/nock100/file_edit_program.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/Change_extension.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Change_extension.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/Un38.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un38.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/Un39.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un39.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/Un40.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un40.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nock100/Un50.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/Un50.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/edit21.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/edit22.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/edit23.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/edit24.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/edit25.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/edit26.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/edit27.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/file_open100.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/file_open100.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/neko_mecab.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/neko_mecab.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock00.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock01.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock02.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock03.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock04.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock05.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock06.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock07.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock08.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock09.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock10.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock11.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock12.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock13.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock14.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock15.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock16.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock17.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock18.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock19.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock20.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock28.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock29.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock30.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock31.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock33.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock34.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock35.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock36.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/nock37.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/nock100/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/nock100/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,28 +111,7 @@
       <recent name="C:\Users\ohisa\PycharmProjects\Programing2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Un50">
-    <configuration name="Un38" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nock100" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nock100/Un38.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.file_edit_program (1)">
     <configuration name="Un39" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -150,7 +175,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="file_edit_program (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -162,7 +187,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nock100/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nock100/file_edit_program.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="file_edit_program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nock100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\ohisa\PycharmProjects\nock100\file_edit_program.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.file_edit_program (1)" />
+        <item itemvalue="Python.file_edit_program" />
         <item itemvalue="Python.Un50" />
         <item itemvalue="Python.Un39" />
         <item itemvalue="Python.Un40" />
-        <item itemvalue="Python.Un38" />
-        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -220,22 +266,22 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1181" y="289" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1595497891916" />
-    <state width="905" height="362" key="GridCell.Tab.0.bottom" timestamp="1601649913105">
+    <state width="905" height="264" key="GridCell.Tab.0.bottom" timestamp="1601708704795">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="362" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1601649913105" />
-    <state width="905" height="362" key="GridCell.Tab.0.center" timestamp="1601649913105">
+    <state width="905" height="264" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1601708704795" />
+    <state width="905" height="264" key="GridCell.Tab.0.center" timestamp="1601708704795">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="362" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1601649913105" />
-    <state width="905" height="362" key="GridCell.Tab.0.left" timestamp="1601649913105">
+    <state width="905" height="264" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1601708704795" />
+    <state width="905" height="264" key="GridCell.Tab.0.left" timestamp="1601708704794">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="362" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1601649913105" />
-    <state width="905" height="362" key="GridCell.Tab.0.right" timestamp="1601649913105">
+    <state width="905" height="264" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1601708704794" />
+    <state width="905" height="264" key="GridCell.Tab.0.right" timestamp="1601708704795">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="362" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1601649913105" />
+    <state width="905" height="264" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1601708704795" />
     <state width="905" height="362" key="GridCell.Tab.1.bottom" timestamp="1601649913105">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -264,20 +310,9 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="471" height="543" key="XDebugger.FullValuePopup/0.0.1858.1080@0.0.1858.1080" timestamp="1595481728965" />
-    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1601633683174">
+    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1601659128011">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1601633683174" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/nock100/nock36.py</url>
-          <line>66</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1601659128011" />
   </component>
 </project>

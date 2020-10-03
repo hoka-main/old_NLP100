@@ -1,6 +1,6 @@
 from package import func
 import sys
-import nock30
+import knock30
 
 
 def noon_find(full_list):
@@ -29,8 +29,8 @@ def noon_find(full_list):
 def main():
     args = sys.argv
     args.append('neko.txt.mecab')
-    phrase_list = [nock30.parse_mecab(phrase)
-                   for phrase in nock30.make_phrase_list(args[1])]
+    phrase_list = [knock30.parse_mecab(phrase)
+                   for phrase in knock30.make_phrase_list(args[1])]
     for items in noon_find(phrase_list):
         print(items)
 

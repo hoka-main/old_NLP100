@@ -1,6 +1,6 @@
 import sys
-import nock30
-import nock35
+import knock30
+import knock35
 import matplotlib.pyplot as plt
 
 
@@ -17,14 +17,14 @@ def main():
     args = sys.argv
     args.append('neko.txt.mecab')
 
-    phrase_list = [nock30.parse_mecab(phrase)
-                   for phrase in nock30.make_phrase_list(args[1])]
+    phrase_list = [knock30.parse_mecab(phrase)
+                   for phrase in knock30.make_phrase_list(args[1])]
     for line in phrase_list:
         for morphological_analysis in line:
             # print(morphological_analysis)
             pass
     counter = []
-    for number in nock35.word_pop_frequency(phrase_list):
+    for number in knock35.word_pop_frequency(phrase_list):
         counter.append(number[1])
     print(counter)
     rank = []

@@ -18,4 +18,4 @@ else:
         print(count_line(file_read))
 # 行数をカウントせよ．確認にはwcコマンドを用いよ．
 # コマンド
-#  wc /mnt/c/users/81804/PycharmProjects/nock100/nock10.py
+#  wc /mnt/c/users/81804/PycharmProjects/knock100/knock10.py

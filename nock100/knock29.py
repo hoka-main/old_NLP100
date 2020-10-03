@@ -52,7 +52,7 @@ def request_url(result):
           + '&iiprop=url'
 
     request = urllib.request.Request(url,
-                                     headers={'User-Agent': 'nock100(@hoka)'})
+                                     headers={'User-Agent': 'knock100(@hoka)'})
     connection = urllib.request.urlopen(request)
     date = json.loads(connection.read().decode())
 

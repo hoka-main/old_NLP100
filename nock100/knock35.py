@@ -1,5 +1,5 @@
 import sys
-from package import func
+import knock30
 from collections import Counter
 
 
@@ -24,8 +24,8 @@ def word_pop_frequency(phrase):
 def main():
     args = sys.argv
     args.append('neko.txt.mecab')
-    phrase_list = [func.parse_mecab(phrase)
-                   for phrase in func.make_phrase_list(args[1])]
+    phrase_list = [knock30.parse_mecab(phrase)
+                   for phrase in knock30.make_phrase_list(args[1])]
     for dict_box, dict_item in word_pop_frequency(phrase_list):
         print(dict_box, dict_item)
     # print(word_pop_frequency(phrase_list))

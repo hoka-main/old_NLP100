@@ -1,5 +1,5 @@
 import sys
-import nock30
+import knock30
 from collections import defaultdict
 import matplotlib.pyplot as plt
 
@@ -11,8 +11,8 @@ def extract_words(block):
 def main():
     args = sys.argv
     args.append('neko.txt.mecab')
-    phrase_list = [nock30.parse_mecab(phrase)
-                   for phrase in nock30.make_phrase_list(args[1])]
+    phrase_list = [knock30.parse_mecab(phrase)
+                   for phrase in knock30.make_phrase_list(args[1])]
     words = [extract_words(brock) for brock in phrase_list]
     print(words)
     d = defaultdict(int)

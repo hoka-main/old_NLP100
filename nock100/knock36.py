@@ -1,6 +1,6 @@
 import sys
-import nock35
-import nock30
+import knock35
+import knock30
 import numpy
 from matplotlib import pyplot
 # import japanize_matplotlib
@@ -45,13 +45,13 @@ def main():
     plt_keys = []
     counter = 9
 
-    phrase_list = [nock30.parse_mecab(phrase)
-                   for phrase in nock30.make_phrase_list(args[1])]
+    phrase_list = [knock30.parse_mecab(phrase)
+                   for phrase in knock30.make_phrase_list(args[1])]
 
     removed_phrase_list = remove_items(phrase_list, '記号')
     # ここで記号を排除する
 
-    for dict_box, items in nock35.word_pop_frequency(removed_phrase_list):
+    for dict_box, items in knock35.word_pop_frequency(removed_phrase_list):
         plt_keys.append(dict_box)
         plt_items.append(items)
         print(dict_box, items)

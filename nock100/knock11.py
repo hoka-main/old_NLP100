@@ -13,4 +13,4 @@ else:
             print(date.replace("\t", " "))
 
 # コマンド
-# expand /mnt/c/users/81804/PycharmProjects/nock100/popular-names.txt
+# expand /mnt/c/users/81804/PycharmProjects/knock100/popular-names.txt

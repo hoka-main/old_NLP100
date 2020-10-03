@@ -1,5 +1,5 @@
 import sys
-import nock30
+import knock30
 
 
 '''
@@ -19,9 +19,9 @@ def main():
     args = sys.argv
     args.append('neko.txt.mecab')
 
-    phrase_list = [nock30.parse_mecab(phrase)
-                   for phrase in nock30.make_phrase_list(args[1])]
-    # nock30で使用した形態素のリスト表現
+    phrase_list = [knock30.parse_mecab(phrase)
+                   for phrase in knock30.make_phrase_list(args[1])]
+    # knock30で使用した形態素のリスト表現
     for line in phrase_list:
         for dict_line in line:
             if dict_line['pos'] == '動詞':
