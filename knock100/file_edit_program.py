@@ -33,7 +33,7 @@ def proof_within_file(file_list, replace_name):
 def main():
     args = sys.argv
     file_list = glob.glob('./*.py')
-    replace_name = ['nock', 'nock']
+    replace_name = [args[1], args[2]]
     file_rename(file_list, replace_name)
     file_list = glob.glob('./*.py')
     proof_within_file(file_list, replace_name)

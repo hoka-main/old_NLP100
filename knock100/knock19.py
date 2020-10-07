@@ -12,7 +12,7 @@ def to_split_row(file, split, indent):
 
 
 args = sys.argv
-args.append('popular-names.txt')
+args.append('ch02/popular-names.txt')
 
 with open(args[1]) as names:
     name_list = to_split_row(names, '\t', 0)

@@ -40,7 +40,7 @@ def plot(plot_keys, plot_items, png):
 
 def main():
     args = sys.argv
-    args.append('neko.txt.mecab')
+    args.append('ch04/neko.txt.mecab')
     plt_items = []
     plt_keys = []
     counter = 9
@@ -59,7 +59,7 @@ def main():
             break
         counter -= 1
     # 35のプログラムを実行し、matplotlibに各アイテムを代入している。
-    plot(plt_keys, plt_items, "graph36.png")
+    plot(plt_keys, plt_items, 'ch04/graph36.png')
     # plot関数にデータを入力してファイル名を指定し作成する
 
 

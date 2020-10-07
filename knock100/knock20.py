@@ -6,7 +6,7 @@ import gzip
 
 
 args = sys.argv
-args.append('jawiki-country.json.gz')
+args.append('ch03/ch03/jawiki-country.json.gz')
 
 
 def read_wiki(file_name, title):

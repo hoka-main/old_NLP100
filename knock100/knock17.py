@@ -15,7 +15,7 @@ def make_line_list(file, split):
 
 
 args = sys.argv
-args.insert(1, 'popular-names.txt')
+args.insert(1, 'ch02/popular-names.txt')
 no_list = []
 name_list = []
 with open(args[1]) as names:

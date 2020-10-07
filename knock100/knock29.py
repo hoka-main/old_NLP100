@@ -6,7 +6,7 @@ import urllib.parse, urllib.request
 
 
 args = sys.argv
-args.append('jawiki-country.json.gz')
+args.append('ch03/ch03/jawiki-country.json.gz')
 
 
 def remove_markup_link(text_date):
@@ -61,13 +61,13 @@ def request_url(result):
     # 'query':{'pages':
     #           {'-1':
     #               {'ns': 6,
-    #                'title': 'File:Flag of the United Kingdom.svg',
+    #                'title': 'File:Flag of the knockited Kingdom.svg',
     #                'missing': '',
     #                'known': '',
     #                'imagerepository': 'shared',
     #                'imageinfo': [
-    #                 {'url': 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg',
-    #                  'descriptionurl': 'https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom.svg',
+    #                 {'url': 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_knockited_Kingdom.svg',
+    #                  'descriptionurl': 'https://commons.wikimedia.org/wiki/File:Flag_of_the_knockited_Kingdom.svg',
     #                  'descriptionshorturl': 'https://commons.wikimedia.org/w/index.php?curid=347935'
     #                 }
     #                             ]

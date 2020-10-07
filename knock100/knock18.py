@@ -3,7 +3,7 @@ import pprint
 from package import func
 
 args = sys.argv
-args.insert(1, 'popular-names.txt')
+args.insert(1, 'ch02/popular-names.txt')
 
 with open(args[1]) as file:
     name_list = func.make_line_list(file, '\t')

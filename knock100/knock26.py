@@ -3,7 +3,7 @@ import re
 from package import func_wiki
 
 args = sys.argv
-args.append('jawiki-country.json.gz')
+args.append('ch03/ch03/jawiki-country.json.gz')
 
 
 def remove_markup(text_date):

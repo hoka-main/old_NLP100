@@ -14,7 +14,7 @@ args = sys.argv
 print(args)
 intN = int(args[1])
 
-with open('cols.txt', mode='r') as names:
+with open('ch02/cols.txt', mode='r') as names:
     print_line(zip(names, range(intN)))
 
 

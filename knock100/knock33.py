@@ -41,7 +41,7 @@ def noun_noun(full_list):
 
 def main():
     args = sys.argv
-    args.append('neko.txt.mecab')
+    args.append('ch04/neko.txt.mecab')
 
     phrase_list = [func.parse_mecab(phrase)
                    for phrase in func.make_phrase_list(args[1])]

@@ -16,7 +16,7 @@ def find_cat(phrase_list, surface):
 
 def main():
     args = sys.argv
-    args.append('neko.txt.mecab')
+    args.append('ch04/neko.txt.mecab')
     counter = 9
     plot_keys = []
     plot_items = []
@@ -43,7 +43,7 @@ def main():
         counter -= 1
     # 35の表層形のみを抽出する関数を使って表層形のみ抽出・降順にソートし、
     # 上から10個の単語を表示している（表示しなくともよいが確認のため）
-    knock36.plot(plot_keys, plot_items, 'graph37.png')
+    knock36.plot(plot_keys, plot_items, 'ch04/graph37.png')
     # 36の関数を使ってグラフに起こす
 
 
