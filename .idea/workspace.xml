@@ -21,124 +21,11 @@
   <component name="ChangeListManager">
     <list default="true" id="1ee3a238-9e2f-4c3d-a407-5baff7047093" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/2pageSessions.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un38.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un39.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un40.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un41.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un42.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un43.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un44.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un45.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un46.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un47.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un48.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un49.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un50.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un51.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un52.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un53.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un54.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un55.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un56.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un57.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un58.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un59.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un60.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un61.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un62.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un63.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un64.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un65.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un66.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un67.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un68.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un69.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un70.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un71.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un72.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un73.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un74.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un75.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un76.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un77.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un78.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un79.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un80.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un81.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un82.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un83.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un84.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un85.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un86.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un87.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un88.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un89.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un90.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un91.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un92.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un93.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un94.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un95.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un96.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un97.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un98.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/Un99.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/ai.ja.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/ai.ja.txt.parsed" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/col1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/col2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/cols.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/file_edit_program.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/file_edit_program.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/file_open100.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/file_open100.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/graph36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/graph37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/graph38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/graph39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/jawiki-country.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/jawiki-country.json.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/jawiki.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/jawiki1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock11.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock11.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock12.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock12.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock13.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock13.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock14.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock14.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock17.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock17.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock18.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock18.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock19.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock19.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock20.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock20.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock21.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock21.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock22.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock22.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock23.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock23.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock24.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock24.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock25.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock25.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock26.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock26.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock27.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock27.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock28.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock28.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock29.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock29.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock30.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock30.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock31.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock31.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock32.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock32.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock33.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock33.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock34.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock34.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock35.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock35.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock36.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock36.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock37.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock37.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/neko.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/neko.txt.mecab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/neko2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/neko3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/newsCorpora.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/popular-names.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/readme.ai.ja.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/readme.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/result.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/test.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/th33_diff_hoka_and_msato.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/train.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/valid.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laboratory/mkdir.py" beforeDir="false" afterPath="$PROJECT_DIR$/laboratory/mkdir.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/ch06/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/test.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/ch06/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/ch06/valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/dev50.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev50.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/dev51.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev51.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -187,8 +74,8 @@
       <recent name="C:\Users\ohisa\PycharmProjects\Programing2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="Un50" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.dev51">
+    <configuration name="dev50" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -196,11 +83,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nock100" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knock100" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nock100/Un50.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/dev50.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev51" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knock100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/dev51.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -222,27 +130,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nock100/file_edit_program.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="file_edit_program" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nock100" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\ohisa\PycharmProjects\nock100\file_edit_program.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dev51" />
+        <item itemvalue="Python.dev50" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.mkdir" />
         <item itemvalue="Python.file_edit_program (1)" />
-        <item itemvalue="Python.file_edit_program" />
-        <item itemvalue="Python.Un50" />
       </list>
     </recent_temporary>
   </component>
@@ -342,22 +229,22 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1181" y="289" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1595497891916" />
-    <state width="905" height="264" key="GridCell.Tab.0.bottom" timestamp="1602049142631">
+    <state width="905" height="264" key="GridCell.Tab.0.bottom" timestamp="1602121988174">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="264" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1602049142631" />
-    <state width="905" height="264" key="GridCell.Tab.0.center" timestamp="1602049142630">
+    <state width="905" height="264" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1602121988174" />
+    <state width="905" height="264" key="GridCell.Tab.0.center" timestamp="1602121988174">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="264" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1602049142630" />
-    <state width="905" height="264" key="GridCell.Tab.0.left" timestamp="1602049142630">
+    <state width="905" height="264" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1602121988174" />
+    <state width="905" height="264" key="GridCell.Tab.0.left" timestamp="1602121988174">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="264" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1602049142630" />
-    <state width="905" height="264" key="GridCell.Tab.0.right" timestamp="1602049142630">
+    <state width="905" height="264" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1602121988174" />
+    <state width="905" height="264" key="GridCell.Tab.0.right" timestamp="1602121988174">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="264" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1602049142630" />
+    <state width="905" height="264" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1602121988174" />
     <state width="905" height="362" key="GridCell.Tab.1.bottom" timestamp="1601649913105">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
