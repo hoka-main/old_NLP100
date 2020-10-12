@@ -23,7 +23,6 @@ def main():
             open(args[3], mode='r') as test:
         pass
     test = test_def(args)
-    test.to_
 
 
 if __name__ == '__main__':
