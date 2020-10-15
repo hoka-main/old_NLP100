@@ -17,8 +17,7 @@ def read_csv(csv):
 
 
 def file_writer(data, file_name):
-    with open(file_name, mode='w')\
-            as writing_file:
+    with open(file_name, mode='w') as writing_file:
         for line in data:
             for line2 in line:
                 writing_file.write(line2)

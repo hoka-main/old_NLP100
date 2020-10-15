@@ -25,7 +25,7 @@ def make_default_title_list(title_file_list):
     return title_list_of_news_list
 
 
-def test_def(args):
+def read_def(args):
     return_file = []
     del args[0]
     for file in args:
@@ -56,13 +56,15 @@ def main():
         'ch06/valid.feature.txt',
         'ch06/test.feature.txt'
     ]
-    data = test_def(args) # タイトルを抽出する
+    data = read_def(args)  # タイトルを抽出する
 
     title_list = make_default_title_list(data) # データを分ける
 
+    dataframe_list = []
     for file_pass, news in zip(save_file_pass_list, title_list):
         dataframe = dataframe_of_tfidf(news)
         dataframe.to_csv(file_pass)
+        dataframe_list.append(dataframe)
     # データフレームにtfidfデータを当て込みファイルに保存する
     '''
     tfidf_vec = TfidfVectorizer(token_pattern=u'(?u)\\b\\w+\\b')
@@ -73,6 +75,7 @@ def main():
     print(tfidf_train)
 #    print(tfidf_vec.get_feature_names())
     '''
+    return dataframe_list
 
 
 if __name__ == '__main__':
