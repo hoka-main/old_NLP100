@@ -21,6 +21,7 @@ def main():
     y_train = pd.read_table(default_txt_pass[0], header=None, delimiter='\t')[1]
     clf = LogisticRegression(random_state=123, max_iter=10000)
     print(clf.fit(x_train, y_train))
+    joblib.dump(clf, 'ch06/model.joblib')
 
 
 if __name__ == '__main__':
