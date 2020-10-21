@@ -78,7 +78,7 @@ def main():
 
     for file_pass, news in zip(save_file_pass_list, data):
         print(news)
-        news.to_csv(file_pass)
+        news.to_csv(file_pass, sep='\t', index=False)
     # データフレームにtfidfデータを当て込みファイルに保存する
     '''
     tfidf_vec = TfidfVectorizer(token_pattern=u'(?u)\\b\\w+\\b')
