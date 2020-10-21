@@ -16,11 +16,11 @@ def main():
         'ch06/test.txt'
     ]
 
-    x_train = pd.read_table(feature_txt_pass[0], header=None)
-    y_train = pd.read_table(default_txt_pass[0], header=None)[1]
-    clf = LogisticRegression()
-    clf.fit(x_train, y_train)
-    joblib.dump(clf, 'ch06/model.joblib')
+    x_train = pd.read_table(feature_txt_pass[0], header=None, delimiter='\t')
+    x_train = x_train.drop(index=0)
+    y_train = pd.read_table(default_txt_pass[0], header=None, delimiter='\t')[1]
+    clf = LogisticRegression(random_state=123, max_iter=10000)
+    print(clf.fit(x_train, y_train))
 
 
 if __name__ == '__main__':

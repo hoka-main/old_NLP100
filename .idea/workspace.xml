@@ -24,7 +24,6 @@
       <change beforePath="$PROJECT_DIR$/knock100/ch06/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/ch06/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/train.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/ch06/valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/valid.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/dev51.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev51.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/dev52.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev52.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -221,10 +220,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1259" y="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1596084941830">
+    <state x="1259" y="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603297917700">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="1259" y="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1858.1080@0.0.1858.1080" timestamp="1596084941830" />
+    <state x="1259" y="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1858.1080@0.0.1858.1080" timestamp="1603297917700" />
     <state x="1123" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603285339075">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -233,22 +232,22 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1181" y="289" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1595497891916" />
-    <state width="892" height="265" key="GridCell.Tab.0.bottom" timestamp="1603291746129">
+    <state width="892" height="265" key="GridCell.Tab.0.bottom" timestamp="1603299409141">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="892" height="265" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1603291746129" />
-    <state width="892" height="265" key="GridCell.Tab.0.center" timestamp="1603291746128">
+    <state width="892" height="265" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1603299409141" />
+    <state width="892" height="265" key="GridCell.Tab.0.center" timestamp="1603299409141">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="892" height="265" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1603291746128" />
-    <state width="892" height="265" key="GridCell.Tab.0.left" timestamp="1603291746127">
+    <state width="892" height="265" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1603299409141" />
+    <state width="892" height="265" key="GridCell.Tab.0.left" timestamp="1603299409140">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="892" height="265" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1603291746127" />
-    <state width="892" height="265" key="GridCell.Tab.0.right" timestamp="1603291746128">
+    <state width="892" height="265" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1603299409140" />
+    <state width="892" height="265" key="GridCell.Tab.0.right" timestamp="1603299409141">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="892" height="265" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1603291746128" />
+    <state width="892" height="265" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1603299409141" />
     <state width="905" height="359" key="GridCell.Tab.1.bottom" timestamp="1602693320130">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
