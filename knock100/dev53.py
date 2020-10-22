@@ -4,14 +4,18 @@ import pandas as pd
 import dev52
 
 
-def main():
-    train = dev52.Lg()
-    x_train = train[0]
-    y_train = train[1]
+def pred(x, y):
     clf = LogisticRegression(random_state=123, max_iter=10000)
-    clf.fit(x_train, y_train)
-    train_pred = clf.predict(x_train)
-    print(train_pred)
+    clf.fit(x, y)
+    to_pred = clf.predict(x)
+    return to_pred
+
+
+def main():
+    Log = dev52.Lg()
+    x_train = Log[0]
+    y_train = Log[1]
+    print(pred(x_train, y_train))
 
 
 if __name__ == '__main__':
