@@ -17,10 +17,9 @@ def Lg():
     ]
     data = []
     for x, y in zip(feature_txt_pass, default_txt_pass):
-        x_table = pd.read_table(x, header=None, delimiter='\t')
-        x_table = x_table.drop(index=0)
+        x_table = pd.read_table(x, delimiter='\t')
         data.append(x_table)
-        y_table = pd.read_table(y, header=None, delimiter='\t')[1]
+        y_table = pd.read_table(y, delimiter='\t')['CATEGORY']
         data.append(y_table)
     return data
 

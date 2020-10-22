@@ -24,9 +24,8 @@
       <change beforePath="$PROJECT_DIR$/knock100/ch06/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/ch06/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/train.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/ch06/valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/dev51.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev51.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/dev52.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev52.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/dev53.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev53.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/dev54.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev54.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/dev55.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev55.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,10 +184,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.dev55" />
-        <item itemvalue="Python.dev54" />
+        <item itemvalue="Python.dev51" />
         <item itemvalue="Python.dev53" />
         <item itemvalue="Python.dev52" />
-        <item itemvalue="Python.dev51" />
+        <item itemvalue="Python.dev54" />
       </list>
     </recent_temporary>
   </component>
@@ -235,22 +234,22 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1181" y="289" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1595497891916" />
-    <state width="892" height="265" key="GridCell.Tab.0.bottom" timestamp="1603355053276">
+    <state width="1837" height="265" key="GridCell.Tab.0.bottom" timestamp="1603358638166">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="892" height="265" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1603355053276" />
-    <state width="892" height="265" key="GridCell.Tab.0.center" timestamp="1603355053275">
+    <state width="1837" height="265" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1603358638166" />
+    <state width="1837" height="265" key="GridCell.Tab.0.center" timestamp="1603358638166">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="892" height="265" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1603355053275" />
-    <state width="892" height="265" key="GridCell.Tab.0.left" timestamp="1603355053275">
+    <state width="1837" height="265" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1603358638166" />
+    <state width="1837" height="265" key="GridCell.Tab.0.left" timestamp="1603358638165">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="892" height="265" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1603355053275" />
-    <state width="892" height="265" key="GridCell.Tab.0.right" timestamp="1603355053276">
+    <state width="1837" height="265" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1603358638165" />
+    <state width="1837" height="265" key="GridCell.Tab.0.right" timestamp="1603358638166">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="892" height="265" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1603355053276" />
+    <state width="1837" height="265" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1603358638166" />
     <state width="905" height="359" key="GridCell.Tab.1.bottom" timestamp="1602693320130">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -279,9 +278,9 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="471" height="543" key="XDebugger.FullValuePopup/0.0.1858.1080@0.0.1858.1080" timestamp="1595481728965" />
-    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1603290179218">
+    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1603358443091">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1603290179218" />
+    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1603358443091" />
   </component>
 </project>
