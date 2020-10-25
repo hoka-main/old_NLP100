@@ -13,8 +13,8 @@ def pred(x, y):
 
 def main():
     Log = dev52.Lg()
-    x_train = Log[0]
-    y_train = Log[1]
+    x_train = Log[0][0]
+    y_train = Log[0][1]
     print(pred(x_train, y_train))
 
 

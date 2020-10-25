@@ -8,10 +8,10 @@ import dev53
 
 def main():
     Log = dev52.Lg()
-    x_train = Log[0]
-    y_train = Log[1]
-    x_test = Log[4]
-    y_test = Log[5]
+    x_train = Log[0][0]
+    y_train = Log[0][1]
+    x_test = Log[2][0]
+    y_test = Log[2][1]
 
     train_pred = dev53.pred(x_train, y_train)
     test_pred = dev53.pred(x_test, y_test)
