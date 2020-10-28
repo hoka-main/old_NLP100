@@ -135,9 +135,9 @@ def test():
                                    stratify=valid_test['CATEGORY'])
 
     # データの保存
-    train.to_csv('ch06/train.txt', sep='\t', index=False)
-    valid.to_csv('ch06/valid.txt', sep='\t', index=False)
-    test.to_csv('ch06/test.txt', sep='\t', index=False)
+    train.to_csv('ch06/train.txt', sep='\t', header=True, index=False)
+    valid.to_csv('ch06/valid.txt', sep='\t', header=True, index=False)
+    test.to_csv('ch06/test.txt', sep='\t', header=True, index=False)
 
     # 事例数の確認
     print('【学習データ】')

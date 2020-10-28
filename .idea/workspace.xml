@@ -25,11 +25,14 @@
       <change beforePath="$PROJECT_DIR$/knock100/ch06/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/ch06/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/train.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/ch06/valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/valid.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/dev50.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev50.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/dev51.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev51.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/dev52.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev52.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/dev53.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev53.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/dev54.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev54.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/dev55.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev55.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/dev56.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev56.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/dev57.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/dev57.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,49 +81,7 @@
       <recent name="C:\Users\ohisa\PycharmProjects\Programing2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dev56">
-    <configuration name="dev51" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knock100" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/dev51.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="dev52" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knock100" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/dev52.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.dev57">
     <configuration name="dev53" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -134,6 +95,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/dev53.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dev54" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knock100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/dev54.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -184,12 +166,33 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="dev57" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knock100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/dev57.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dev57" />
         <item itemvalue="Python.dev56" />
-        <item itemvalue="Python.dev52" />
         <item itemvalue="Python.dev55" />
-        <item itemvalue="Python.dev51" />
+        <item itemvalue="Python.dev54" />
         <item itemvalue="Python.dev53" />
       </list>
     </recent_temporary>
@@ -237,38 +240,38 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1181" y="289" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1595497891916" />
-    <state width="905" height="265" key="GridCell.Tab.0.bottom" timestamp="1603638778836">
+    <state width="905" height="265" key="GridCell.Tab.0.bottom" timestamp="1603925162610">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="265" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1603638778836" />
-    <state width="905" height="265" key="GridCell.Tab.0.center" timestamp="1603638778836">
+    <state width="905" height="265" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1603925162610" />
+    <state width="905" height="265" key="GridCell.Tab.0.center" timestamp="1603925162610">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="265" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1603638778836" />
-    <state width="905" height="265" key="GridCell.Tab.0.left" timestamp="1603638778836">
+    <state width="905" height="265" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1603925162610" />
+    <state width="905" height="265" key="GridCell.Tab.0.left" timestamp="1603925162610">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="265" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1603638778836" />
-    <state width="905" height="265" key="GridCell.Tab.0.right" timestamp="1603638778836">
+    <state width="905" height="265" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1603925162610" />
+    <state width="905" height="265" key="GridCell.Tab.0.right" timestamp="1603925162610">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="265" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1603638778836" />
-    <state width="905" height="359" key="GridCell.Tab.1.bottom" timestamp="1602693320130">
+    <state width="905" height="265" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1603925162610" />
+    <state width="905" height="359" key="GridCell.Tab.1.bottom" timestamp="1603923993234">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="359" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1602693320130" />
-    <state width="905" height="359" key="GridCell.Tab.1.center" timestamp="1602693320130">
+    <state width="905" height="359" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1603923993234" />
+    <state width="905" height="359" key="GridCell.Tab.1.center" timestamp="1603923993234">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="359" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1602693320130" />
-    <state width="905" height="359" key="GridCell.Tab.1.left" timestamp="1602693320130">
+    <state width="905" height="359" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1603923993234" />
+    <state width="905" height="359" key="GridCell.Tab.1.left" timestamp="1603923993234">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="359" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1602693320130" />
-    <state width="905" height="359" key="GridCell.Tab.1.right" timestamp="1602693320130">
+    <state width="905" height="359" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1603923993234" />
+    <state width="905" height="359" key="GridCell.Tab.1.right" timestamp="1603923993234">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="359" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1602693320130" />
+    <state width="905" height="359" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1603923993234" />
     <state x="1222" y="242" key="RollbackChangesDialog" timestamp="1602687969336">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -277,10 +280,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="875" y="100" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1595498076833" />
-    <state width="471" height="543" key="XDebugger.FullValuePopup" timestamp="1595481728965">
+    <state width="471" height="543" key="XDebugger.FullValuePopup" timestamp="1603918637365">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="471" height="543" key="XDebugger.FullValuePopup/0.0.1858.1080@0.0.1858.1080" timestamp="1595481728965" />
+    <state width="471" height="543" key="XDebugger.FullValuePopup/0.0.1858.1080@0.0.1858.1080" timestamp="1603918637365" />
     <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1603358443091">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>

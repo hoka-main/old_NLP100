@@ -1,21 +1,20 @@
 from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
 import pandas as pd
 import dev52
 
 
-def pred(x, y):
+def pred(feature_table, default_category):
     clf = LogisticRegression(random_state=123, max_iter=10000)
-    clf.fit(x, y)
-    to_pred = clf.predict(x)
+    clf.fit(feature_table, default_category)
+    to_pred = clf.predict(feature_table)
     return to_pred
 
 
 def main():
-    Log = dev52.Lg()
-    x_train = Log[0][0]
-    y_train = Log[0][1]
-    print(pred(x_train, y_train))
+    log = dev52.Lg()
+    feature_train = log[0][0]
+    train_category = log[0][1]
+    print(pred(feature_train, train_category))
 
 
 if __name__ == '__main__':

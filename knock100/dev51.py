@@ -44,7 +44,7 @@ def read_dataframe_title():
         ]
     return_file = []
     for file in file_pass:
-        text = pd.read_csv(file, sep='\t', names=['TITLE', 'CATEGORY'])
+        text = pd.read_csv(file, sep='\t', header=0, names=['TITLE', 'CATEGORY'])
         title = text.TITLE
         return_file.append(title)
     return return_file
@@ -77,7 +77,7 @@ def main():
     dataframe_list = []
     for file_pass, news in zip(save_file_pass_list, data):
         print(news)
-        news.to_csv(file_pass, sep='\t', header=False, index=False)
+        news.to_csv(file_pass, sep='\t', index=False)
     # データフレームにtfidfデータを当て込みファイルに保存する
     '''
     tfidf_vec = TfidfVectorizer(token_pattern=u'(?u)\\b\\w+\\b')

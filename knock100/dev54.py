@@ -1,23 +1,20 @@
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-import pandas as pd
 import dev52
 import dev53
 
 
 def main():
-    Log = dev52.Lg()
-    x_train = Log[0][0]
-    y_train = Log[0][1]
-    x_test = Log[2][0]
-    y_test = Log[2][1]
+    log = dev52.Lg()
+    feature_train = log[0][0]
+    train_category = log[0][1]
+    feature_test = log[2][0]
+    test_category = log[2][1]
 
-    train_pred = dev53.pred(x_train, y_train)
-    test_pred = dev53.pred(x_test, y_test)
+    train_pred = dev53.pred(feature_train, train_category)
+    test_pred = dev53.pred(feature_test, test_category)
 
-    train_accuracy = accuracy_score(y_train, train_pred)
-    test_accuracy = accuracy_score(y_test, test_pred)
+    train_accuracy = accuracy_score(train_category, train_pred)
+    test_accuracy = accuracy_score(test_category, test_pred)
     print(train_accuracy)
     print(test_accuracy)
 
