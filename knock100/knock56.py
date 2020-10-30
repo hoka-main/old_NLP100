@@ -1,7 +1,7 @@
 from sklearn.metrics import precision_score, recall_score, f1_score
 import pandas as pd
 import numpy as np
-from knock100 import dev52, dev53
+from knock100 import knock52, knock53
 
 
 def calculate_scores(x_true, x_pred):  # [正解, 予想] 正解率予想関数
@@ -28,11 +28,11 @@ def calculate_scores(x_true, x_pred):  # [正解, 予想] 正解率予想関数
 
 
 def main():
-    log = dev52.Lg()
+    log = knock52.Lg()
     fit = log[0]
     feature_test = log[3][0]
     test_category = log[3][1]
-    test_pred = dev53.pred(fit, feature_test)
+    test_pred = knock53.pred(fit, feature_test)
     print(calculate_scores(test_category, test_pred))
 
 

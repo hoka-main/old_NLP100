@@ -3,12 +3,12 @@ from sklearn.model_selection import cross_val_score
 from sklearn.metrics import accuracy_score
 from matplotlib import pyplot as plt
 from tqdm import tqdm
-from knock100 import dev52, dev53
+from knock100 import knock52, knock53
 import numpy as np
 
 
 def main():
-    log = dev52.Lg()
+    log = knock52.Lg()
     clf = log[0]
     feature_train = log[1][0]
     train_category = log[1][1]
@@ -23,9 +23,9 @@ def main():
         clf = LogisticRegression(random_state=123, max_iter=10000, C=C)
         clf.fit(feature_train, train_category)
 
-        train_pred = dev53.pred(clf, feature_train)
-        valid_pred = dev53.pred(clf, feature_valid)
-        test_pred = dev53.pred(clf, feature_test)
+        train_pred = knock53.pred(clf, feature_train)
+        valid_pred = knock53.pred(clf, feature_valid)
+        test_pred = knock53.pred(clf, feature_test)
 
         train_accuracy = accuracy_score(train_category, train_pred)
         valid_accuracy = accuracy_score(valid_category, valid_pred)

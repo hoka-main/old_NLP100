@@ -1,11 +1,11 @@
 from sklearn.linear_model import LogisticRegression
 import pandas as pd
 import numpy as np
-from knock100 import dev52
+from knock100 import knock52
 
 
 def main():
-    log = dev52.Lg()
+    log = knock52.Lg()
     fit = log[0]
     feature_train = log[1][0]
     features = feature_train.columns.values
