@@ -25,16 +25,16 @@
       <change beforePath="$PROJECT_DIR$/knock100/ch06/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/ch06/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/train.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/ch06/valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/valid.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/dev50.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/dev51.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/dev52.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/dev53.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/dev54.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/dev55.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/dev56.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/dev57.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/dev58.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/dev59.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/knock39.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock39.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/knock51.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock51.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/knock52.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock52.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/knock53.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock53.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/knock54.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock54.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/knock55.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock55.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/knock56.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock56.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/knock57.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock57.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/knock58.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock58.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,8 +83,8 @@
       <recent name="C:\Users\ohisa\PycharmProjects\Programing2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mv">
-    <configuration name="dev55" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.knock57">
+    <configuration name="knock54" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,7 +96,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/dev55.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/knock54.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -105,7 +105,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dev56" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="knock55" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -117,7 +117,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/dev56.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/knock55.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -126,7 +126,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="dev58" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="knock56" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,7 +138,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/dev58.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/knock56.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -147,28 +147,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mv" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/laboratory" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/laboratory/mv.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="knock57" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,7 +159,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/knock57.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="knock58" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knock100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/knock58.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -191,11 +191,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.mv" />
-        <item itemvalue="Python.dev55" />
-        <item itemvalue="Python.dev56" />
-        <item itemvalue="Python.dev58" />
-        <item itemvalue="Python.test" />
+        <item itemvalue="Python.knock57" />
+        <item itemvalue="Python.knock58" />
+        <item itemvalue="Python.knock56" />
+        <item itemvalue="Python.knock55" />
+        <item itemvalue="Python.knock54" />
       </list>
     </recent_temporary>
   </component>
@@ -238,26 +238,22 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1123" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1603300627672" />
-    <state x="1181" y="289" key="FileChooserDialogImpl" timestamp="1595497891916">
+    <state width="905" height="262" key="GridCell.Tab.0.bottom" timestamp="1604417674429">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="1181" y="289" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1595497891916" />
-    <state width="905" height="265" key="GridCell.Tab.0.bottom" timestamp="1604078444245">
+    <state width="905" height="262" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1604417674429" />
+    <state width="905" height="262" key="GridCell.Tab.0.center" timestamp="1604417674429">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="265" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1604078444245" />
-    <state width="905" height="265" key="GridCell.Tab.0.center" timestamp="1604078444245">
+    <state width="905" height="262" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1604417674429" />
+    <state width="905" height="262" key="GridCell.Tab.0.left" timestamp="1604417674429">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="265" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1604078444245" />
-    <state width="905" height="265" key="GridCell.Tab.0.left" timestamp="1604078444245">
+    <state width="905" height="262" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1604417674429" />
+    <state width="905" height="262" key="GridCell.Tab.0.right" timestamp="1604417674429">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="265" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1604078444245" />
-    <state width="905" height="265" key="GridCell.Tab.0.right" timestamp="1604078444245">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="905" height="265" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1604078444245" />
+    <state width="905" height="262" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1604417674429" />
     <state width="905" height="359" key="GridCell.Tab.1.bottom" timestamp="1604064213145">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -278,17 +274,13 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1222" y="242" key="RollbackChangesDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1602687969336" />
-    <state x="875" y="100" key="SettingsEditor" timestamp="1595498076833">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="875" y="100" key="SettingsEditor/0.0.1858.1080@0.0.1858.1080" timestamp="1595498076833" />
     <state width="471" height="543" key="XDebugger.FullValuePopup" timestamp="1603918637365">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="471" height="543" key="XDebugger.FullValuePopup/0.0.1858.1080@0.0.1858.1080" timestamp="1603918637365" />
-    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1604072688955">
+    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1604415517116">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1604072688955" />
+    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1604415517116" />
   </component>
 </project>

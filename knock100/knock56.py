@@ -29,11 +29,9 @@ def calculate_scores(x_true, x_pred):  # [正解, 予想] 正解率予想関数
 
 def main():
     log = knock52.Lg()
-    fit = log[0]
-    feature_test = log[3][0]
-    test_category = log[3][1]
-    test_pred = knock53.pred(fit, feature_test)
-    print(calculate_scores(test_category, test_pred))
+    clf = knock52.load_clf()
+    test_pred = knock53.pred(clf, log['test_feature'])
+    print(calculate_scores(log['test_category'], test_pred))
 
 
 if __name__ == '__main__':
