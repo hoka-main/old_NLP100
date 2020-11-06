@@ -25,15 +25,10 @@
       <change beforePath="$PROJECT_DIR$/knock100/ch06/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/ch06/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/train.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/ch06/valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/valid.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock39.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock39.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/knock50.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock50.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/knock51.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock51.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/knock52.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock52.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock53.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock53.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock54.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock54.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock55.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock55.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock56.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock56.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock57.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock57.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock58.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock58.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/knock100/knock59.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock59.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,8 +78,8 @@
       <recent name="C:\Users\ohisa\PycharmProjects\Programing2" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.knock57">
-    <configuration name="knock54" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.knock59">
+    <configuration name="knock50" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -96,49 +91,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/knock54.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="knock55" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knock100" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/knock55.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="knock56" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="PycharmProjects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knock100" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/knock56.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/knock50.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -189,13 +142,55 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="knock59" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/knock100" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/knock100/knock59.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="namu" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/laboratory" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/laboratory/namu.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.knock59" />
+        <item itemvalue="Python.namu" />
         <item itemvalue="Python.knock57" />
+        <item itemvalue="Python.knock50" />
         <item itemvalue="Python.knock58" />
-        <item itemvalue="Python.knock56" />
-        <item itemvalue="Python.knock55" />
-        <item itemvalue="Python.knock54" />
       </list>
     </recent_temporary>
   </component>
@@ -230,46 +225,46 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1259" y="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1603297917700">
+    <state x="1259" y="384" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604499030438">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="1259" y="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1858.1080@0.0.1858.1080" timestamp="1603297917700" />
+    <state x="1259" y="384" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1858.1080@0.0.1858.1080" timestamp="1604499030438" />
     <state x="1123" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1603300627672">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1123" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1603300627672" />
-    <state width="905" height="262" key="GridCell.Tab.0.bottom" timestamp="1604417674429">
+    <state width="905" height="361" key="GridCell.Tab.0.bottom" timestamp="1604632340484">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="262" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1604417674429" />
-    <state width="905" height="262" key="GridCell.Tab.0.center" timestamp="1604417674429">
+    <state width="905" height="361" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1604632340484" />
+    <state width="905" height="361" key="GridCell.Tab.0.center" timestamp="1604632340484">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="262" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1604417674429" />
-    <state width="905" height="262" key="GridCell.Tab.0.left" timestamp="1604417674429">
+    <state width="905" height="361" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1604632340484" />
+    <state width="905" height="361" key="GridCell.Tab.0.left" timestamp="1604632340484">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="262" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1604417674429" />
-    <state width="905" height="262" key="GridCell.Tab.0.right" timestamp="1604417674429">
+    <state width="905" height="361" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1604632340484" />
+    <state width="905" height="361" key="GridCell.Tab.0.right" timestamp="1604632340484">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="262" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1604417674429" />
-    <state width="905" height="359" key="GridCell.Tab.1.bottom" timestamp="1604064213145">
+    <state width="905" height="361" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1604632340484" />
+    <state width="905" height="361" key="GridCell.Tab.1.bottom" timestamp="1604632340484">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="359" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1604064213145" />
-    <state width="905" height="359" key="GridCell.Tab.1.center" timestamp="1604064213145">
+    <state width="905" height="361" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1604632340484" />
+    <state width="905" height="361" key="GridCell.Tab.1.center" timestamp="1604632340484">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="359" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1604064213145" />
-    <state width="905" height="359" key="GridCell.Tab.1.left" timestamp="1604064213145">
+    <state width="905" height="361" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1604632340484" />
+    <state width="905" height="361" key="GridCell.Tab.1.left" timestamp="1604632340484">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="359" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1604064213145" />
-    <state width="905" height="359" key="GridCell.Tab.1.right" timestamp="1604064213145">
+    <state width="905" height="361" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1604632340484" />
+    <state width="905" height="361" key="GridCell.Tab.1.right" timestamp="1604632340484">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="905" height="359" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1604064213145" />
+    <state width="905" height="361" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1604632340484" />
     <state x="1222" y="242" key="RollbackChangesDialog" timestamp="1602687969336">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
@@ -278,9 +273,9 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state width="471" height="543" key="XDebugger.FullValuePopup/0.0.1858.1080@0.0.1858.1080" timestamp="1603918637365" />
-    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1604415517116">
+    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1604560560923">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1604415517116" />
+    <state x="1056" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1604560560923" />
   </component>
 </project>

@@ -38,7 +38,7 @@ def fit():
     clf.fit(log['train_feature'], log['train_category'])
     # 学習データを使って学習させる
     log['clf'] = clf
-    # 先頭にfitさせたLogisticファイルを挿入させる
+    # fitさせたLogisticファイルを挿入する
     return log
 
 

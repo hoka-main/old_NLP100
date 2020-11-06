@@ -14,7 +14,12 @@ def read_dataframe_title():
         ]
     return_file = []
     for file in file_pass:
-        text = pd.read_csv(file, sep='\t', header=0, names=['TITLE', 'CATEGORY'])
+        text = pd.read_csv(
+            file,
+            sep='\t',
+            header=0,
+            names=['TITLE', 'CATEGORY']
+        )
         title = text.TITLE
         return_file.append(title)
     return return_file
@@ -78,10 +83,11 @@ def main():
     title_frame = read_dataframe_title()
     # データフレーム形式でタイトルを取得
 
-    # data = dataframe_of_tfidf(title_frame)
     data = dataframe_of_count(title_frame)
     # 学習・検証・評価データから特徴量を取得しを作成する
+
     print(data[0], '\n', data[1], '\n', data[2])
+
     to_tsv(data)
     # データフレームをファイルに保存する
 

@@ -155,7 +155,6 @@ def main():
         args[1], sep='\t', names=[
             'ID', 'TITLE', 'URL', 'PUBLISHER', 'CATEGORY',
             'STORY', 'HOSTNAME', 'TIMESTAMP'])
-
     read_data = read_data.loc[
         read_data['PUBLISHER'].isin(
             ['Reuters', 'Huffington Post',
