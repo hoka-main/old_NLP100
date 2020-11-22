@@ -12,8 +12,8 @@ def over_fitting(log):
 
         clf = LogisticRegression(random_state=123,
                                  max_iter=10000,
-                                 solver='l1',
-                                 tol=1e-6,
+                                 solver='liblinear',
+                                 tol=1e-5,
                                  C=C
                                  )
         clf.fit(log['train_feature'], log['train_category'])

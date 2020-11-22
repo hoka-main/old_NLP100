@@ -157,8 +157,12 @@ def main():
             'STORY', 'HOSTNAME', 'TIMESTAMP'])
     read_data = read_data.loc[
         read_data['PUBLISHER'].isin(
-            ['Reuters', 'Huffington Post',
-             'Business_week', 'Contact_music.com', 'Daily_Mail']
+            ['Reuters',
+             'Huffington Post',
+             'Businessweek',
+             'Contactmusic.com',
+             'Daily Mail'
+             ]
         ), ['TITLE', 'CATEGORY']
     ]
 
