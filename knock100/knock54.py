@@ -1,5 +1,6 @@
 from sklearn.metrics import accuracy_score
-from knock100 import knock52, knock53
+import knock52
+import knock53
 
 
 def main():

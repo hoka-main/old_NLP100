@@ -1,6 +1,6 @@
 from sklearn.linear_model import LogisticRegression
 import pandas as pd
-from knock100 import knock52
+import knock52
 import pickle
 
 

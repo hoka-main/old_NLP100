@@ -3,7 +3,8 @@ from sklearn.model_selection import cross_val_score
 from sklearn.metrics import accuracy_score
 from matplotlib import pyplot as plt
 from tqdm import tqdm
-from knock100 import knock52, knock53
+import knock52
+import knock53
 import numpy as np
 
 

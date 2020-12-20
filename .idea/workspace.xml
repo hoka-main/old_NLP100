@@ -20,14 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ee3a238-9e2f-4c3d-a407-5baff7047093" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/laboratory/child_train.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/ch06/model.joblib" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/model.joblib" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/ch06/test.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/ch06/train.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/train.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/knock100/ch06/valid.txt" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/ch06/valid.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock50.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock50.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/knock100/knock59.py" beforeDir="false" afterPath="$PROJECT_DIR$/knock100/knock59.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/laboratory/adult_train.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/laboratory/child_train.csv" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +53,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/knock100/directory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="RainbowCSV.Settings" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -231,10 +229,10 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="1123" y="290" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1603300627672" />
-    <state x="1173" y="295" key="FileChooserDialogImpl" timestamp="1605241918661">
+    <state x="1173" y="295" key="FileChooserDialogImpl" timestamp="1606039011058">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="1173" y="295" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1605241918661" />
+    <state x="1173" y="295" key="FileChooserDialogImpl/0.0.1858.1080@0.0.1858.1080" timestamp="1606039011058" />
     <state width="905" height="265" key="GridCell.Tab.0.bottom" timestamp="1605974453488">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>

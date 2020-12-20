@@ -1,7 +1,7 @@
 from sklearn.linear_model import LogisticRegression
 import pandas as pd
 import numpy as np
-from knock100 import knock52
+import knock52
 
 
 def print_best_and_worst(log, clf):

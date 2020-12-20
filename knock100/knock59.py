@@ -1,4 +1,6 @@
-from knock100 import knock52, knock53, knock58
+import knock52
+import knock53
+import knock58
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 from matplotlib import pyplot as plt
